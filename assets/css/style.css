@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+form.form-verde-binnakle input[type=text]:focus+label {
+    color: #799900!important;
+}
+form.form-verde-binnakle input[type=text]:focus {
+    border-bottom: 1px solid #799900!important;
+    box-shadow: 0 1px 0 0 #799900!important;
+}
+form.form-verde-binnakle [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {    
+    background-color: #799900;
+}
+form.form-verde-binnakle [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid #799900;
+}
+.text-verde-binnakle {
+    color: #799900;
+}
+.text-verde-binnakle:hover {
+    color: #799900;
+}
+.bg-verde-binnakle {
+    background: #799900;
+}
+a.bg-verde-binnakle:hover {
+    background: #799900;
+}
+.btn, .btn-large, .btn-flat {
+    border-radius: 0;
+}
+.btn.white:hover {
+    background-color: #E0E0E0!important;
+}
+.top-bar {
+    color: #fff;
+    background: #799900;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 25px;
+}
+.nav-top-bar {
+    color: #fff;
+    background-color: #799900;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;    
+}
+header {
+    background-color: #fff;
+    padding: 0 15px;
+}
+header nav{
+    background-color: #fff;
+    height: 90px;
+}
+.brand-logo {
+    height: 90px;
+}
+.brand-logo img{
+    float: left;
+}
+.playertype {    
+    float: left;
+    color: #799900;    
+    margin-left: 4%;
+    line-height: 90px;
+}
+.playertype-top { 
+    display: none;
+    float: left;
+}
+@media (max-width: 992px){
+    .playertype { 
+        display: none;
+    }
+    .playertype-top { 
+        display: block;
+    }
+    nav .brand-logo {
+        position: absolute;
+    }
+}
+@media (min-width: 992px){
+    nav .brand-logo {
+        position: relative;
+        float: left;
+    }
+}
+.mainmenu {
+    height: 90px;
+}
+ul.mainmenu li a {
+    color: #000;
+    height: 90px;   
+    padding-top: 12px; 
+}
+nav .button-collapse {
+    color: #000;
+    position: absolute;
+}
+ul.mainmenu li a:hover, ul.mainmenu li.active a {
+    color: #799900;
+}
+ul.mainmenu li.active, ul.mainmenu li a:hover {
+    background: none;
+}
+ul.mainmenu i.right {
+    margin-left: 5px;
+}
+
+
+
+/*  ##########  left column ##########  */
+.leftcentercolumn {
+    background: #fff;
+    width: 100%;
+    float: left;
+}
+.leftcolumn {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+.leftcolumn {
+    min-height: 600px;
+}
+.leftcolumn .menu {
+    margin-top: 20px;
+}
+.leftcolumn .menu ul {
+    list-style: none;
+    padding-left: 20px;  
+}
+.leftcolumn .menu ul li{
+    margin: 4px 0;    
+}
+.leftcolumn .menu ul li a{
+    color: #333;
+    font-weight: 500;
+}
+.leftcolumn .menu ul li.active>a{
+    color: #000;
+    font-weight: bold;
+}
+.leftcolumn .menu ul li a:hover{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.leftcolumn .menu ul li.overactive a:hover{
+    color: #799900;
+}
+.leftcolumn .menu ul li ul li a:hover{
+    color: #799900;
+}
+.leftcolumn .menu ul li.sub-active a{
+    color: #799900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*  ############## left menu side nav ##############*/
+#activationleftmenu {
+    float: left;
+    position: absolute;
+    left: 0px;
+    color: #000;
+    display: none;
+}
+
+.leftmenu.side-nav li.active {
+    background: #fff;
+}
+.leftmenu {    
+    background-color: #fff;
+}
+.leftmenu {
+    min-height: 600px;
+}
+.leftmenu .menu {
+    margin-top: 20px;
+}
+.leftmenu .menu ul {
+    list-style: none;
+    padding-left: 20px;  
+}
+.leftmenu .menu ul li{
+    margin: 4px 0;    
+}
+.leftmenu .menu ul li a{
+    color: #333;
+    font-weight: 500;
+}
+.leftmenu .menu ul li.active>a{
+    color: #000;
+    font-weight: bold;
+}
+.leftmenu .menu ul li a:hover{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.leftmenu .menu ul li.overactive a:hover{
+    color: #799900;
+}
+.leftmenu .menu ul li ul li a:hover{
+    color: #799900;
+}
+.leftmenu .menu ul li.sub-active a{
+    color: #799900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*  ##########  center column ##########  */
+.centercolumn {
+    float: left;
+    width: 75%;   
+    /*background-image: url('../images/fondo-sombreado.png');   */
+    background-size: cover; 
+    min-height: 600px;
+    padding: 0 15px;
+}
+
+@media (max-width: 992px){
+    #activationleftmenu {
+        display: block;
+    }
+    .centercolumn {
+        width: 100%;
+    }
+    .leftcolumn {
+        display: none;
+    }
+}
+
+.centercolumn-inner {
+    min-height: 600px;
+    padding: 15px 15px 25px 15px;
+}
+.grid-modalidad .row {
+    margin-bottom: 0px;
+}
+.grid-modalidad p.titleleft{
+    margin-top: 2px;
+    float: left;
+    margin-right: 20px;
+}
+.modalidad-radios {
+    display: inline;
+}
+.modalidad-radios label {
+    padding-left: 25px!important;
+    padding-right: 15px;
+}
+.fechas-input {
+    width: 25%;
+    float: left;
+    padding: 0 2%;
+}
+.fechas-input:first-child {
+   /* padding-left: 0;*/
+}
+.fechas-input:last-child {
+   /* padding-right: 0;*/
+}
+.fechas-input .datepicker {
+    margin-bottom: 0!important;
+}
+.grid-fecha_hora_lugar .row {
+    margin-bottom: 0px;
+}
+.grid-participantes .input-field {
+    margin-top: 0px;
+}
+button.white {
+    color: #000;
+}
+.grid-nuevo-reto p {    
+    font-weight: bold;
+}
+.with-helptext input[type=text] {
+    margin-bottom: 4px;
+}
+p.mdc-text-field-helptext {    
+    font-size: 12px;
+    margin-top: 0px;
+}
+.grid-mas-sesiones p {
+    margin: 0px;
+}
+.modalsesiones .grid-fechas {
+    height: 500px;
+}
+.grid-invitar {
+    margin: 30px 0px;
+}
+.grid-invitar button {
+    margin-bottom: 10px;
+}
+.users-list {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+}
+.users-list {
+    padding: 10px;
+}
+.users-list table tr th, .users-list table tr td {
+    padding: 0px 4px;
+}
+.users-list table tr.accepted-invitation td {
+    color: #799900; 
+}
+
+.grid-users-list {
+    position: relative;
+}
+.goteamsbutton-inner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.goteamsbutton {
+    height: 40px;
+}
+
+@media (max-width: 992px){
+    .grid-invitar .left {
+        width: 100%;
+    }
+    .grid-invitar button {
+        width: 100%;
+    }    
+    .goteamsbutton-inner, .goteamsbutton-inner a {
+        width: 100%;
+    }
+}
+/*  ##########  footer ##########  */
+section.footer {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    float: left;
+    padding-top: 10px;
+}
+.container-footer {
+    height: 50px;
+    background: #fff;
+}
+.footer-link {
+    line-height: 48px;
+    color: #799900;
+    padding: 0 20px;
+}
+.footer-link-left {
+    float: left;
+}
+.footer-link-right {
+    float: right;
+    margin-right: 20px;
+}
+.footer-link:hover {
+    color: rgb(63, 73, 6);
+    text-decoration: none;
+}
+@media (max-width: 992px){
+    .footer-link {
+        
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    }
+}

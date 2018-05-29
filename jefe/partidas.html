@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle admin</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/jefe.css" rel="stylesheet">
+</head>
+<body class="jefe">
+<!--top-bar-->
+<section id="top-bar">
+    <div class="top-bar">
+        <nav class="nav-top-bar">
+            <div class="nav-wrapper">   
+                <div class="playertype-top">Jefe de Expedición</div>               
+                <ul class="right">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                    </ul>				
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--top-bar-->
+<!--header-->
+<section id="header">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <div class="playertype">Jefe de Expedición</div>
+                <ul class="right hide-on-med-and-down mainmenu">
+                    <li><a href="#">PERFIL<i class="material-icons right">person</i></a></li>
+                    <li class="active"><a href="#">PARTIDAS<i class="material-icons right">work</i></a></li>
+                    <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">PERFIL</a></li>
+                    <li class="active"><a href="#">PARTIDAS</a></li>
+                    <li><a href="#">SALIR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</section>
+<!--header-->
+
+<!--content-->
+<!-- partidas content -->
+<div class="centercolumn partidas">
+    <div class="centercolumn-inner">
+        <form class="material-form col s12 form-verde-binnakle">
+            <div class="grid-partidas-detail">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="partidas-new">
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">Crear Nueva Partida</a>
+                        </div>
+                    </div> 
+                    <div class="col s12">
+                        <table class="partidas-list responsive-table">
+                            <tr>
+                                <th>Partida</th>
+                                <th class="hidden-mobile">Rol</th>
+                                <th class="hidden-mobile">Estado</th>
+                                <th class="hidden-mobile">Fecha inicio</th>
+                                <th class="hidden-mobile">Fecha finalización</th>
+                                <th>Código</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td class="hidden-mobile">Jefe de Expedición</td>
+                                <td class="hidden-mobile">Finalizado</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td>123456789</td>
+                                <td>
+                                    <a href="#!" class="btn waves-effect waves-light white">Ver</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td class="hidden-mobile">Jefe de Expedición</td>
+                                <td class="hidden-mobile">Finalizado</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td>123456789</td>
+                                <td>
+                                    <a href="#!" class="btn waves-effect waves-light white">Ver</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td class="hidden-mobile">Jefe de Expedición</td>
+                                <td class="hidden-mobile">Finalizado</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td class="hidden-mobile">dd/mm/aaaa</td>
+                                <td>123456789</td>
+                                <td>
+                                    <a href="#!" class="btn waves-effect waves-light white">Ver</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>                   
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- partidas content -->
+<!--content-->
+
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script src="js/jefe.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+section.bienvenidos-content {
+    background: url(../images/background-welcome.jpg) repeat;
+    float: left;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.bienvenidos-content .logo {    
+    text-align: center;
+    margin-top: 20px;
+}
+.grid-welcome {
+    width: 90%;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #799900;
+    background: #fff;
+    padding: 40px 0 20px 0;
+}
+.grid-welcome .row-grid-welcome {
+    margin-bottom: 10px;
+}
+.grid-welcome h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.grid-welcome h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bienvenidos-content form {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.codigo-pasaporte {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.button-validar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.verde-binnakle {
+    color: #799900;
+}
+
+.grid-welcome-bottom {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid-welcome-bottom-inner {
+    width: 48%;
+    float: left;
+    background: #fff;
+    padding: 0px 20px;
+    margin-top: 2%;
+
+}
+.grid-welcome-bottom-inner.left {
+    margin-right: 1%;
+}
+.grid-welcome-bottom-inner.right {
+    margin-left: 1%;
+}
+.grid-welcome-bottom h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.grid-welcome-bottom h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-ingresar {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .grid-welcome-bottom-inner {
+        width: 100%;
+    }
+}

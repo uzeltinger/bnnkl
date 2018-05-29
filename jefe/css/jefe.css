@@ -1,0 +1,1400 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+body.jefe .playertype {
+    /*margin-left: 28%;*/
+}
+body.jefe .leftcolumn {
+    padding: 0px;
+}
+.centercolumn.nuevo-reto {
+    background-image: url('../images/fondo-sombreado.png');   
+}
+.section-title {
+    display: none;
+}
+.section-title p{
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 992px){
+    .section-title {
+        display: block;
+    }
+}
+.section-mision-title {
+    min-height: 50px;
+}
+.section-mision-title h1 {
+    font-size: 16px;
+    color: #fff;
+    background: #799900;
+    padding: 4px;
+    margin-top: -15px;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    line-height: 26px;
+
+}
+.section-mision-title h1 strong{
+    font-weight: 700;
+}
+.left-team {
+background: url('../images/ranking/background-binnakle-ranking.jpg');
+float: left;
+width: 100%;
+border-bottom: 2px solid #fff;
+text-align: center;
+}
+.left-team-inner {
+    display: inline-block;
+}
+.left-team-star {
+float: left;
+margin: 5px 0 0 5px;
+}
+.left-team-image {
+    float: left;
+    width: 50px;
+    margin-top: 4px;
+}
+.left-team-title {
+    float: left;
+    font-weight: bold;
+    width: 100px;
+}
+.left-team-title p {    
+    margin: 14px 0;
+    float: left;
+}
+.left-team-score {
+    float: left;
+    font-size: 20px;
+}
+.left-team-score p {    
+    margin: 10px 0;
+}
+.left-ranking-refresh .refresh {
+    background: #E0BD10;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.left-ranking-refresh .go {
+    background: #CCA609;
+    width: 100%;
+}
+.left-ranking-refresh .refresh:hover {
+    background: #CCA609;
+}
+.left-ranking-refresh .go:hover {
+    background: #b3970c;
+}
+.grid-mision-icons {
+    margin: 40px 0;
+}
+
+.grid-mision-icons a img{
+-webkit-transition: .3s ease-out;
+transition: .3s ease-out;
+-webkit-box-shadow: 3px 3px 3px 0px #0000003b;
+-moz-box-shadow: 3px 3px 3px 0px #0000003b;
+box-shadow: 3px 3px 3px 0px #0000003b;
+
+
+}
+.grid-mision-icons a:hover img{
+    background-color: #E0E0E0!important;
+}
+.link-with-arrow p {
+    float: left;
+    font-weight: 700;
+}
+.link-with-arrow a.arrow-go-bg-green {
+float: left;
+margin-top: 15px;
+margin-left: 10px;
+background: #799900;
+height: 20px;
+-webkit-transition: .3s ease-out;
+transition: .3s ease-out;
+}
+
+.link-with-arrow a.arrow-go-bg-green:hover {
+    background: #485c02;
+}
+
+
+.icons {
+    text-align: center;
+}
+.icons a{
+    color: #799900;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@media (min-width: 601px){
+    .jefe-mision-boton {
+        float: left;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 600px){
+    .jefe-mision-boton {        
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.jefe-mision-boton a:hover {
+    background: #485c02;
+}
+
+.modal.modalreformulaciones {
+    width: 95%!important;
+    max-height: 90%!important;
+}
+.waves-green {
+    color: #799900;
+}
+td.team-name {
+    color: #799900;
+
+}
+.centercolumn.mision {
+    min-height: 700px;
+    background-image: url('../images/fondo-sombreado.png');   
+}
+table.misiondetail tr td strong {
+    font-weight: 700
+}
+.modal-footer a {
+    color: #333;
+}
+/*  ##################################  Partidas    ######################################### */
+.centercolumn.partidas {
+    min-height: 700px;
+    background-image: url('../images/fondo-sombreado-large.png');
+    background-size: cover;
+    width: 100%;
+}
+.oncecolumn {
+
+}
+.grid-partidas-detail {
+    padding: 30px 10px 0 10px;
+
+}
+.partidas-list {
+    margin-top: 30px;
+}
+.btn.white {
+    color: #333;
+}
+/*
+@media (max-width:768px){
+    .partidas-list .hidden-mobile {
+        display: none;
+    }
+}
+*/
+/*  ##################################  Partidas    ######################################### */
+
+/*  ##################################  perfil    ######################################### */
+
+.centercolumn.perfil {
+    min-height: 700px;
+    background-image: url('../images/fondo-sombreado-large.png');
+    background-size: cover;
+    /*background: url('../images/fondo-sombreado.png') top left, url('../images/fondo-sombreado.png') bottom left;   */
+    width: 100%;
+}
+.perfil-partidas-right {
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+.perfil-title {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 32px;
+}
+.perfil-campos {
+    padding: 10px 40px 0 0px;
+
+}
+.perfil-campos input[type=text] {
+margin-bottom: 6px!important;
+height: 2.5rem;
+}
+.icons span {
+    font-size: 12px;
+}
+.guardar button {
+    float: right;
+}
+/*  ##################################  perfil    ######################################### */
+
+/*  ############################    equips  ################################################ */
+
+.grid-confirmados {
+    padding: 10px;
+}
+.grid-confirmados .row{
+margin-bottom: 0px;
+}
+.confirmados {
+    margin-top: 0px;
+    color: #799900;
+    font-weight: BOLD;
+}
+.grid-confirmados p{
+    margin-top: 0px;
+}
+.grid-confirmados-list {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+}
+.list-equipos p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list-equipos [type="checkbox"]+label:before, .list-equipos [type="checkbox"]:not(.filled-in)+label:after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 1px;
+    height: 1px;
+}
+.list-equipos [type="checkbox"]:checked+label:before {
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 0px;
+    border-right: 2px solid #799900;
+    border-bottom: 2px solid #799900;
+}
+.list-equipos [type="checkbox"]+label {
+    padding-left: 25px;
+}
+.list-equipos .team-draggable {
+    width: 100%;
+}
+@media (min-width:992px){
+    .grid-confirmados-list .team-draggable {
+        width: 50%;
+        float: left;
+    }
+}
+.grid-equipos {
+    margin-top: 10px;
+}
+.grid-equipos .equipo-titulo {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.grid-equipos .equipo {
+    padding: 10px;
+    height: 120px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+    margin-bottom: 20px;
+}
+
+.grid-botones button {
+    margin-bottom: 10px;
+}
+/*  ######################################  agenda  ############################*/
+.centercolumn.agenda {
+    background-image: url('../images/fondo-sombreado.png');   
+}
+.grid-agenda-title p {
+    color: #799900;
+    font-weight: bold;
+}
+.grid-agenda-hours {
+    /*margin: 20px 40px;*/
+}
+.grid-agenda-hours .grid-agenda-hours-botones{
+    margin-top: 20px;
+}
+.modalagenda .grid-time{
+    min-height: 400px;
+}
+
+.grid-agenda-items .collection a.collection-item {
+ color: #333333;
+}
+
+.grid-agenda-items .hour {
+    width: 150px;
+    text-align: right;
+    float: left;
+    padding: 0 20px;
+}
+.collection .collection-item:last-child {
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.grid-agenda-items .hour.last {
+    text-align: right;
+}
+.agenda .grid-botones {
+    margin-top: 20px;
+}
+.modalagendafecha {
+    min-height: 500px;
+}
+.ranking-team {
+    margin-top: 40px;
+}
+.ranking-team-titulo {
+    font-weight: 700;
+}
+.ranking-team-icono {
+    float: left;
+}
+.ranking-team-puntos {
+    float: left;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.ranking-team-inputs {
+    float: left;
+    font-size: 20px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ranking-team-buttons{
+    float: left;
+    font-size: 20px;
+    width: 80px;
+    margin-left: 10px;
+}
+.input_cuadrado{    
+    border: 1px solid #ccc;
+    margin: 0;
+    width: 80px;
+    text-align: center;
+}
+.input_cuadrado:focus {
+    outline: none;
+    border: 1px solid #799900;
+    box-shadow: none!important;
+}
+.ranking-team-inputs button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #799900;
+    text-align: center;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;    
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 24px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 6px;
+}
+.puntos_equipo_mas {
+float: right;
+}
+.puntos_equipo_menos {
+float: left;
+}
+.ranking-team-inputs button:hover {
+    background-color: #799900;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.grid-ranking-update{
+    margin-top: 40px;
+}
+
+
+/*  ############################## mision2 ##################################    */
+.mision2 .first-link p, .mision2 .first-link a{
+    margin-top: 6px;
+}
+.mision2 .first-link p.subtitle {
+    width: 100%;
+    margin-top: 20px;
+}
+.mision2 p.subtitle {
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.mision2-icons .row{
+margin-bottom: 0px;
+}
+.mision2-icons .icons a {
+    color: #799900;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mision2-icons a.introduccion img {
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    -webkit-box-shadow: 3px 3px 3px 0px #0000003b;
+    -moz-box-shadow: 3px 3px 3px 0px #0000003b;
+    box-shadow: 3px 3px 3px 0px #0000003b;
+}
+.mision2-icons a.introduccion:hover img {
+    background-color: #E0E0E0!important;
+}
+
+@media (min-width: 601px){
+    .jefe-mision2-botones .jefe-mision-boton {
+        float: right;
+        margin-left: 20px;
+    }
+    .mision2-icons .instrucciones-text {
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .jefe-mision2-botones .jefe-mision-boton {        
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .mision2-icons .hidexs {
+        display: none;
+    }
+    .instrucciones-xs {
+        width: 100%;
+        text-align: center;
+
+    }
+    .mision2-icons .instrucciones-text {
+        display: block;
+        color: #799900;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+.collection.noborder {
+    border: none;
+    margin-top: 0px;
+}
+.collection.noborder .collection-item {
+    border: none;
+    padding: 0px 0px 10px 0px;
+}
+
+.collection.noborder .teamname {
+    width: 120px;
+    float: left;
+    margin-top: 0px;
+}
+.mision2 .grid-mision .row {
+    margin-bottom: 0px;
+}
+/*  ######################## ideas cargadas #########################   */
+.tabs-tab-title {
+    display: none;
+}
+.ideas-a-votar-title {
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+}
+.ideas-a-votar {
+    padding: 5px 10px;
+    border: 2px solid #799900;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.player-email {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.player-email:hover, .player-email.active {
+    color: #799900;
+}
+.player-email.not-allowed {
+    cursor: not-allowed;
+}
+.tabs-teams {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 48px;
+    width: 100%;
+    background-color: #799900;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.tabs-teams .tab {
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.tabs-teams .tab a.active {
+    background: #6b8609;
+    color: #fff;
+}
+.tabs-teams .tab a:hover {
+    color: #fff;
+}
+.tabs .indicator {
+    background-color: #fff;
+}
+.tabs-teams .tab a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color .28s ease;
+    transition: color .28s ease;
+}
+.tabs_div_content .reformulaciones-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tabs_div_content .reformulaciones-menu a {
+    font-weight: 400;
+    color: #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tabs_div_content .reformulaciones-menu a.active, .tabs_div_content .reformulaciones-menu a:hover {
+    border-bottom: 2px solid #81980D;
+    text-decoration: none;
+}
+.modalideascargadas .modal-footer .btn{
+    margin: 10px;
+}
+
+.team-idea-vote button:hover {
+    background-color: #799900;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.team-idea-vote {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.column-votes {
+    width: 50%;
+    float: left;
+}
+@media (max-width:800px){
+    .column-votes {
+        width: 100%;
+    }
+}
+.team-idea-vote-inner {
+    max-width: 160px;
+}
+.team-idea-vote p{
+    line-height: 20px;
+    height: 24px;
+    float: left;
+    margin: 4px 0 0 0;
+}
+.team-idea-vote button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #799900;
+    text-align: center;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: right;
+}
+label.vote-add-idea:after {
+   /* background-color: #799900!important;
+    border-radius: 50%!important;
+    border: 2px solid #799900!important;
+    width: 24px!important;
+    height: 24px!important;*/
+
+}
+label.vote-add-idea{
+    width: 25px;
+    height: 25px;
+    content: "+";
+    padding-left: 0px;
+}
+label.vote-add-idea:before{
+    
+}
+
+[type="checkbox"].filled-in:checked+label.vote-add-idea:before {
+    top: 2px;
+    left: 3px;
+
+}
+[type="checkbox"].filled-in:not(:checked)+label.vote-add-idea:after {
+    background:#9B9B9B url("../images/signomas.png") no-repeat center center;
+    background-color: #9B9B9B;
+    border: 2px solid #9B9B9B;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+[type="checkbox"]:checked+label.vote-add-idea:after {
+    background: #799900;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #799900;
+}
+
+
+
+/*
+.team-idea-vote label:before {
+    border: none;
+    background-color: #799900;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    content: "+";
+    color: #fff;
+    line-height: 20px;
+    padding: 2px 7px;
+}
+
+#indianaContent .team-idea-vote [type="checkbox"]:checked+label:before {
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    content: "+";
+    background-color: #A13F2A;
+    transform: none;
+    top: 0;
+    left: 0;
+}
+
+
+label.idea-voted-label:before {
+    content: "*"!important;
+}
+*/
+#indianaContent .team-idea-vote button.idea-voted {
+    background-color: #A13F2A;
+}
+#tuaregContent .team-idea-vote button.idea-voted {
+    background-color: #16476D;
+}
+#livingstoneContent .team-idea-vote button.idea-voted {
+    background-color: #A8781E;
+}
+#cookContent .team-idea-vote button.idea-voted {
+    background-color: #090708;
+}
+
+#team1reformulaciones2, #team2reformulaciones2, #team3reformulaciones2, #team4reformulaciones2 {
+    display: none;
+}
+
+/*
+, #team2reformulaciones2, #team3reformulaciones2, #team4reformulaciones2
+.modalideas .tabs-tab-title {
+text-align: center;
+margin-top: 10px;
+color: #799900;
+display: none;
+}
+@media (max-width:800px){
+    .modalideas .tabs-tab-title {
+        display: block;
+    }
+}
+.modalideas .modal-footer a {
+    float: right;
+    margin: 0 10px 10px 0
+}
+.modalideas .tabs .tab a {
+    color: #799900;
+}
+.modalideas .tabs .tab a:hover, .modalideas .tabs .tab a.active {
+    color: #799900;
+}
+.modalideas .tabs .indicator {
+    background-color: #799900;
+}
+
+*/
+
+.modalresultados {
+    width: 95%!important;
+    max-height: 90%!important;
+}
+.modalresultados .resultado-titulo {
+    text-transform: uppercase;
+}
+.modalresultados .modal-footer .btn{
+    margin: 10px;
+    float: right;
+}
+/*
+.modalresultados input.resultado-idea {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.modalresultados .input-field {
+    margin-top: 0;
+}
+*/
+input.chk-btn {
+    display: none;
+  }
+input.chk-btn + label {
+    padding: 5px 8px;
+    cursor: pointer;
+}
+input.chk-btn:not(:checked) + label:hover {
+    box-shadow: 0px 1px 3px;
+}
+input.chk-btn + label:active,
+input.chk-btn:checked + label {
+    /*box-shadow: 0px 0px 3px inset;*/
+    background: #eee;
+}
+input.chk-btn+label {
+    height: 35px;
+}
+input.chk-btn+label:before {
+    display: none;
+}
+/*
+.resultado-indiana input.chk-btn + label:active,
+.resultado-indiana input.chk-btn:checked + label {
+    background: #A13F2A;
+    color: #FFF;
+}
+.resultado-tuareg input.chk-btn + label:active,
+.resultado-tuareg input.chk-btn:checked + label {
+    background: #090708;
+    color: #FFF;
+}
+.resultado-livingstone input.chk-btn + label:active,
+.resultado-livingstone input.chk-btn:checked + label {
+    background: #A8781E;
+    color: #FFF;
+}
+.resultado-cook input.chk-btn + label:active,
+.resultado-cook input.chk-btn:checked + label {
+    background: #16476D;
+    color: #FFF;
+}
+*/
+.modal-testing .modal-footer {
+    padding: 4px 6px;
+    height: 56px;
+    width: 100%;
+    text-align: right;    
+}
+.resultado {
+    margin-top: 20px;
+}
+.resultado .resultado-titulo {
+    font-weight: 700;
+}
+.select-checkbox {
+    width: 100%;
+    float: left;
+}
+.reformulaciones-equipo .equipo {
+    color: #799900;
+}
+.vote-data {
+    float: left;
+}
+.vote-actions {
+    font-family: "Verdana";
+    float: right;
+    margin-top: 5px;
+}
+button.voteaction {
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding: 0px;
+}
+button.voteaction:focus {
+    outline: none;
+}
+button.team1 {
+    background: #A8781E;
+    border: 1px solid #A8781E;
+    color: #FFF; 
+}
+button.team1:focus, button.team1.button-selected {
+    background: #fff;
+    border: 1px solid #A8781E;
+    color: #A8781E; 
+}
+button.team2 {
+    background: #090708;
+    border: 1px solid #090708;
+    color: #FFF; 
+}
+button.team2:focus, button.team2.button-selected {
+    background: #fff;
+    border: 1px solid #090708;
+    color: #090708; 
+}
+button.team3 {
+    background: #16476D;
+    border: 1px solid #16476D;
+    color: #FFF; 
+}
+button.team3:focus, button.team3.button-selected {
+    background: #fff;
+    border: 1px solid #16476D;
+    color: #16476D; 
+}
+button.team4 {
+    background: #A13F2A;
+    border: 1px solid #A13F2A;
+    color: #FFF; 
+}
+button.team4:focus, button.team4.button-selected {
+    background: #fff;
+    border: 1px solid #A13F2A;
+    color: #A13F2A; 
+}
+.idea-text label {
+    padding: 5px;
+    font-size: 1rem;
+    color: #000;
+}
+label.label-checked-1 {    
+    background: #A8781E!important;
+    color: #FFF;
+}
+label.label-checked-2 {    
+    background: #090708!important;
+    color: #FFF;
+}
+label.label-checked-3 {    
+    background: #16476D!important;
+    color: #FFF;
+}
+label.label-checked-4 {    
+    background: #A13F2A!important;
+    color: #FFF;
+}
+label.label-checked-indiana {    
+    background: #A13F2A!important;
+    color: #FFF;
+}
+label.label-checked-cook {    
+    background: #090708!important;
+    color: #FFF;
+}
+label.label-checked-tuareg {    
+    background: #16476D!important;
+    color: #FFF;
+}
+label.label-checked-livingstone {    
+    background: #A8781E!important;
+    color: #FFF;
+}
+
+
+
+.modalreformulaciones .modal-header, .modalresultados .modal-header {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.sombreros {
+    width: 360px;
+    margin: 0 auto;
+}
+.sombreros button {
+    width: 90px;
+    height: 70px;
+    border: 1px solid #fff;
+    float: left;
+}
+button.sombrero-indiana:hover, button.sombrero-indiana.active {
+    border: 1px solid #A13F2A;
+}
+button.sombrero-cook:hover, button.sombrero-cook.active {
+    border: 1px solid #090708;
+}
+button.sombrero-tuareg:hover, button.sombrero-tuareg.active {
+    border: 1px solid #16476D;
+}
+button.sombrero-livingstone:hover, button.sombrero-livingstone.active {
+    border: 1px solid #A8781E;
+}
+button.sombrero-indiana {
+    background: url("../images/sombreros/sombrero-indiana.png") no-repeat center center;
+}
+button.sombrero-cook {
+    background: url("../images/sombreros/sombrero-cook.png") no-repeat center center;
+}
+button.sombrero-tuareg {
+    background: url("../images/sombreros/sombrero-tuareg.png") no-repeat center center;
+}
+button.sombrero-livingstone {
+    background: url("../images/sombreros/sombrero-livingstone.png") no-repeat center center;
+}
+.vote-data {
+    width: 100%;
+}
+.idea-text {
+    float: left;
+}
+.idea-checkbox {
+    float: right;
+}
+[type="checkbox"].checkbox-indiana.filled-in:checked+label:after {
+    border: 2px solid #A13F2A;
+    background-color: #A13F2A;
+}
+[type="checkbox"].checkbox-cook.filled-in:checked+label:after {
+    border: 2px solid #090708;
+    background-color: #090708;
+}
+[type="checkbox"].checkbox-tuareg.filled-in:checked+label:after {
+    border: 2px solid #16476D;
+    background-color: #16476D;
+}
+[type="checkbox"].checkbox-livingstone.filled-in:checked+label:after {
+    border: 2px solid #A8781E;
+    background-color: #A8781E;
+}
+
+/*
+Rojizo Indiana: A13F2A
+Negro Tuareg: 090708
+BEige Livingstone: A8781E
+Azul cook: 16476D
+*/
+
+/*  ########################### mision 3 #################################### */
+.ideas {
+    width: 100%;
+}
+.ideas .idea {
+    float: left;
+    width: 20%;
+}
+.mision3 p.subtitle {
+    float: left;
+    font-weight: 700;
+    width: 100%;
+}
+.ideas-atacar {
+    margin-top: 10px;
+}
+.mision3 p.ideas-subtitle {
+    float: left;
+    margin-bottom: 1px;
+    font-weight: 700;
+    margin-top: 4px;
+    width: 200px;
+}
+
+@media (max-width: 768px){
+    .ideas .idea {
+        width: 50%;
+    }
+    .ideas .idea h6{
+        margin-top: 10px;
+        font-weight: 700;
+    }
+    .asignar-ideas a {
+        margin-top: 10px;
+    }
+    .mision3 p.ideas-subtitle {
+        width: 100%;
+    }
+}
+
+
+.mision3 .link-with-arrow .ideas-atacar a.arrow-go-bg-green {
+    float: left;
+    color: #fff;
+    margin-top: 0;
+    height: auto;
+    padding: 4px 0px 4px 10px;
+}
+.mision3 .link-with-arrow .ideas-atacar a.arrow-go-bg-green img{
+    float: right;
+}
+
+ul.puntos-debiles {
+padding-left: 0;
+list-style-type: none;
+}
+ul.puntos-debiles li {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: top;
+    height: 30px;
+}
+.teamname {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+}
+.circle {
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #799900;  
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    padding: 4px;
+}
+.eye {
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: #799900; 
+    height: 28px;
+    padding-top: 2px;
+}
+.eye a {
+    color: #799900; 
+}
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+.modalideas-title {
+    color: #799900;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.modalideas .tabs .indicator {
+    background-color: #799900;
+}
+
+.modalideas .tabs .tab a {
+    color: #799900;
+}
+.modalideas .tabs .tab a.active {
+    font-weight: 700;
+}
+.ataqueydefensa-title {
+    width: 100%;    
+}
+.ataqueydefensa-title-col {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.ataqueydefensa-idea {
+    width: 100%;
+    float: left;
+}
+.ataqueydefensa-idea-col {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+.ataqueydefensa-idea-action a {
+    width: 10%;
+    color: #000;
+}
+a.delete-idea {
+    cursor: pointer;
+}
+/*  ############################ resumen ################################    */
+
+.binnakle-jefe-resumen .nomarginbottom {
+    margin-bottom: 5px;
+}
+
+.binnakle-jefe-resumen h2 {
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+.binnakle-jefe-resumen h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.binnakle-jefe-resumen .resumen-title {
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #000;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 10px;
+}
+.binnakle-jefe-resumen .equipo {
+    float: left;
+    width: 50%;
+    padding: 10px;    
+}
+@media (max-width: 850px){
+    .binnakle-jefe-resumen .equipo {
+        width: 100%;   
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1150px){
+    .binnakle-jefe-resumen .equipo {
+        width: 100%;   
+    }
+}
+
+
+.binnakle-jefe-resumen .equipo .imagen {
+    float: left;
+    width: 100%;    
+    text-align: center;
+    background: #CEE0A9;
+    margin-bottom: 10px;
+}
+.binnakle-jefe-resumen .equipo img{
+    margin: 0 auto;
+}
+
+.binnakle-jefe-resumen .upload-files {
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+}
+.binnakle-jefe-resumen .upload-files .input-field {
+    width: 80%;
+    margin-top: 4px;
+    float: left;
+}
+.binnakle-jefe-resumen .upload-files .file-field .btn {
+    float: left;
+    height: 24px;
+    line-height: 1rem;
+    font-size: 14px;
+    text-transform: none;
+    padding: 4px 2px;
+    width: 120px;
+}
+.binnakle-jefe-resumen .upload-files .file-field .btn:hover {
+    background: #6b8609;
+}
+
+.binnakle-jefe-resumen .upload-files .file-field .btn i.left {
+    margin-right: 5px;
+}
+
+.binnakle-jefe-resumen .cuadro-link {
+    float: left;
+    width: 30%;    
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 4px;
+    padding: 7px;
+}
+.binnakle-jefe-resumen .cuadro-link-indiana {
+    background: #A13F2A;
+}
+.cuadro-link-tuareg {
+    background: #090708;
+}
+.cuadro-link-livingstone {
+    background: #A8781E;
+}
+.cuadro-link-cook {
+    background: #16476D;
+}
+.mision-name span {
+    font-weight: 700;
+}
+.mision-name {
+margin-bottom: 0;
+}
+.mision-eye {
+    float: left;
+    margin-right: 5px;
+    color: #799900; 
+    height: 20px;
+}
+.mision-eye a {
+    color: #799900; 
+}
+.mision-eye-title {
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+}
+.mision-link {
+    width: 100%;
+    float: left;
+}
+.mision-separator {
+    width: 100%;
+    height: 10px;
+    float: left;
+}
+
+.binnakle-jefe-resumen .resumen-ranking {
+max-width: 300px;
+}
+
+.binnakle-jefe-resumen .resumen-ranking .ranking-title{
+    color: #E0BE41;
+    font-size: 18px;
+    font-weight: 700;
+}
+.binnakle-jefe-resumen .resumen-ranking .team {
+    width: 80%;
+    float: left;
+    height: auto;
+}
+.binnakle-jefe-resumen .resumen-ranking .teamname {
+    float: left;
+}
+.binnakle-jefe-resumen .resumen-ranking .teamscore {
+    float: right;
+    font-weight: 700;
+}
+.binnakle-jefe-resumen .resumen-boton a {
+    float: right;
+}
+.resumen-boton {
+    margin-top: 20px;
+}
+
+
+
+/*  ########################### mision 4 #################################### */
+.ideas {
+    width: 100%;
+}
+.equipo-recuadro {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    max-width: 300px;
+}
+@media (max-width: 992px){
+    .equipo-recuadro {
+        width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .equipo-recuadro {
+        padding: 10px 0px 0px 0px;
+    }
+}
+.ideas .idea {
+    float: left;
+}
+.mision4 .ideas p.ideas-subtitle {
+    float: left;
+    margin-bottom: 1px;
+    font-weight: 700;
+    margin-top: 4px;
+    color: #799900;
+}
+.mision4 .ideas-tabs-subtitle a.arrow-go-bg-green {
+    float: right;
+    color: #fff;
+    margin-top: 0;
+    height: auto;
+    padding: 4px 0px 4px 10px;
+    margin-left: 10px;
+    background: #999;
+}
+.mision4 .ideas-tabs-subtitle a.arrow-go-bg-green.active {
+    background: #799900;
+}
+.mision4 .ideas-tabs-subtitle a.arrow-go-bg-green img{
+    float: right;
+}
+.ideas-content {
+    margin-top: 20px;
+    float: left;
+}
+.idea-row {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+.idea-row label{
+    width: 70%;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+.idea-row input{
+    text-align: center;
+    width: 40px;
+    float: right;
+    border: 2px solid #799900;
+}
+.idea-row input.total-bikkles {
+    border: 2px solid #799900;
+    width: 30px;
+    /*float: left!important;*/
+}
+/*
+@media (max-width: 768px){
+    .ideas .idea {
+        width: 50%;
+    }
+    .ideas .idea h6{
+        margin-top: 10px;
+        font-weight: 700;
+    }
+    .asignar-ideas a {
+        margin-top: 10px;
+    }
+    .mision3 p.ideas-subtitle {
+        width: 100%;
+    }
+}
+*/

@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+.top_menu .row {
+    margin-bottom: 0;
+}
+.centercolumn-inner {
+    background: url('../images/sombrablancobot.png') repeat-x bottom;
+    min-height: 100px;
+}
+.centercolumn-explorador {
+    
+    background: url('../images/sombrablancotop.png') repeat-x top;
+}
+
+.submenutop {
+    background: #DFE5C5;
+    width: 100%;    
+}
+.submenutop ul {  
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; 
+    padding-left: 0; 
+    margin-bottom: 0; 
+    list-style: none;
+}
+.submenutop ul li{
+    width: 16.66%;
+    /*float: left;
+    list-style: none;*/
+}
+.submenutop ul li a {
+    line-height: 50px;
+    width: 100%;
+    border-bottom: 4px solid #DFE5C5;
+    color: #81980D;
+    text-align: center;
+    display: inline-block;
+}
+.submenutop ul li a:hover, .submenutop ul li.active a {
+    border-bottom: 4px solid #81980D;
+    font-weight: 700;
+    color: #81980D;
+    text-decoration: none;
+}
+.welcome {
+    background-image: url('../images/background-explorador-bienvenida.jpg') ;
+    width: 100%;
+    height: 100%;
+}
+.centercolumn.welcome {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    display: table;
+    background-size: auto;
+}
+.welcometeam{
+    height: 100%;
+    margin-top: 20%;
+}
+.welcometeam-wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+.welcometeam-wrapper-inner{
+    /*display: table-cell;
+    vertical-align: middle;  */  
+}
+.welcometeam h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 42px;
+}
+.equipo-indiana .welcometeam h2 {
+    color: #A13F2A;
+}
+.equipo-cook .welcometeam h2 {
+    color: #000;
+}
+.equipo-tuareg .welcometeam h2 {
+    color: #16476D;
+}
+.equipo-livingstone .welcometeam h2 {
+    color: #A8781E;
+}
+.welcometeam p {
+font-size: 20px;
+font-weight: bold; 
+}
+.otherteams-title p {
+    font-size: 20px;
+    font-weight: bold; 
+
+}
+@media (max-width: 768px){
+    .welcometeam{ 
+        margin-top: 24px;
+    }
+    .welcometeam h2{
+        font-size: 32px;
+    }
+}
+@media (max-width: 600px){
+    .welcometeam{ 
+        margin-top: 10px;
+    }
+    .welcometeam h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 992px){
+    .otherteam {
+        width: 33%;
+        float: left;        
+    }
+}
+.otherteams {
+    text-align: center;
+}
+
+.binnakle-explorador-reformulaciones .grid-mision img.team-icon {
+    max-width: 80px;;
+    height: auto;
+}
+body.explorador .material-form .title {    
+    min-height: 100px;
+    padding-left: 100px;
+}
+body.explorador .material-form h1 {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+body.explorador .material-form h2 {
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+.binnakle-explorador-reformulaciones .grid-mision .row{
+    margin-bottom: 10px;
+}
+.binnakle-explorador-reformulaciones .grid-reformulaciones input[type=text] {
+    margin-bottom: 10px;    
+}
+.binnakle-explorador-reformulaciones .grid-reformulaciones label {
+    font-size: 13px;
+}
+
+.binnakle-explorador-reformulaciones .reformulaciones-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.binnakle-explorador-reformulaciones .reformulaciones-menu a {
+    font-weight: 400;
+    color: #000;
+    margin-right: 10px;
+}
+.binnakle-explorador-reformulaciones .reformulaciones-menu a.active, .binnakle-explorador-reformulaciones .reformulaciones-menu a:hover {
+    border-bottom: 2px solid #81980D;
+    text-decoration: none;
+}
+body.explorador .material-form h3.ideatipo {
+    margin-bottom: 20px;
+}
+.grid-reformulaciones .ideas-listado {
+    padding: 10px;
+    height: 120px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+    margin-bottom: 20px;
+}
+.idea-fields {
+    width: 100%;
+    float: left;
+}
+.idea_mas {
+    text-decoration: none;
+    color: #fff;
+    background-color: #799900;
+    text-align: center;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 24px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 6px;
+}
+.idea_mas:hover {
+    background-color: #799900;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.idea_mas:focus {
+    outline: none;
+    background-color: #799900;
+}
+.idea-field-input {
+    float: left;
+    width: 90%;
+}
+.idea-field-buton {
+    float: left;
+    width: 10%;
+}
+.idea-agregada {
+    width: 100%;
+    float: left;
+}
+.idea-agregada .idealetternumber {
+float: left;
+margin-right: 10px;
+}
+.idea-agregada a {
+    color: #000;
+}
+.idea-agregada input.idea-agregada {
+    float: left;
+    width: 75%;
+    height: 20px;
+    border-bottom: none;
+}
+.idea-agregada a.idea-action {
+    float: right;
+    width: 10%;
+}
+.idea-agregada button.idea-action {
+    float: left;
+    width: 10%;
+    border: none;
+    background: none;
+}
+#ideaslistado_clasica_2, #ideaslistado_clasica_3, #ideaslistado_rompe_2, #ideaslistado_rompe_3 {
+    display: none;
+}
+body.explorador .material-form h3 {
+    font-size: 16px;
+    color: #000;
+    margin: 0px 0 0 0;
+}
+.btn.verdeclaro {
+    background: #DFE5C5;
+    color: #799900;
+}
+.btn.verdeclaro:hover {
+    background-color: #799900!important;
+    color: #DFE5C5;
+}
+.bottom-positions {
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../images/ranking/background-binnakle-ranking.jpg');
+
+}
+.ranking-bikles {
+    width: 100%;
+    min-height: 200px!important;
+    height: auto;
+}
+.team {
+    width: 19%;
+    float: left;
+    height: 220px;
+}
+.team0 {
+    width: 24%;
+    background-image: url('../images/ranking/ranking-bikles.png');
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.team-left {
+    float: left;
+    height: 100%;
+}
+.team-left img {
+    vertical-align: middle;
+    margin-top: 100px;
+}
+.team-center {
+    float: left;
+    text-align: center;
+}
+
+.team-score p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.team-score p{
+    margin-bottom: 0px;
+}
+.team-image {
+
+}
+.team-title {
+    font-size: 16px;
+    font-weight: 700;    
+}
+.team-title p {
+    margin-top: 0px;
+    text-align: center;
+}
+.team::before {
+    overflow: hidden;
+}
+
+@media (max-width: 768px){
+    .team0 {
+        display: none;
+    }
+    .team {
+        width: 25%;
+    }
+}
+@media (max-width: 600px){
+    .team {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .team-inner {
+        margin: 0 auto;
+        width: 160px;
+    }
+}
+
+
+.modalpreguntas [type="radio"]:not(:checked)+label:before, .modalpreguntas [type="radio"]:not(:checked)+label:after{
+    border: 2px solid #799900;
+}
+.modalpreguntas .modal-footer {
+    background: none;    
+}
+
+.btn.verdeoscuro {
+    background: #799900;
+    color: #DFE5C5;
+}
+@media (min-width: 992px){
+    .modalpreguntas {
+        background: url('../images/preguntas-fondo.png') no-repeat;
+        width: 900px;
+        height: 520px;
+        box-shadow: none;
+    }
+    .modalpreguntas .modal-content {
+        width: 600px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .modal-footer .verdeoscuro {
+        margin-right: 100px!important;
+    }
+}
+
+.timer-clock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../images/timer-clock.png') repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.timer-clock-inner {
+    margin-top: 64px;
+    margin-left: 48px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+.timer-clock p {    
+    margin:0px;
+    font-size: 42px;
+    font-weight: bold;
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+
+@media (max-width: 991px){
+    .modalpreguntas {
+        background: url('../images/preguntas-fondo-mobile.png') repeat;
+        background-size: 100%;
+        box-shadow: none;        
+    }
+    .modalpreguntas .modal-content {
+        padding: 40px;
+        margin-right: 160px;
+    }
+    .modal-footer .verdeoscuro {
+        margin-right: 10px!important;
+    }
+    .timer-clock {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url('../images/timer-clock.png') repeat;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px){
+    .timer-clock {
+        position: relative;
+        margin: auto;
+    }
+    .modalpreguntas .modal-content {
+        margin-right: 0px;
+    }
+    .timer-clock-inner {
+    padding-top: 64px;
+    margin-top: 0px;
+	}
+}
+
+/*  #################################### Mision 2 #####################################    */
+
+.mision2 .grid-reformulaciones input.reto{
+    height: 20px;
+}
+
+
+.modalenigma [type="radio"]:not(:checked)+label:before, .modalenigma [type="radio"]:not(:checked)+label:after{
+    border: 2px solid #799900;
+}
+.modalenigma .modal-footer {
+    background: none;    
+}
+@media (min-width: 992px){
+    .modalenigma {
+        background: url('../images/preguntas-fondo.png') no-repeat;
+        width: 900px;
+        height: 520px;
+        box-shadow: none;
+    }
+    .modalenigma .modal-content {
+        width: 600px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+	.modalenigma .modal-footer .verdeoscuro {
+		margin-right: 100px!important;
+    }
+}
+
+@media (max-width: 991px){
+    .modalenigma {
+        background: url('../images/preguntas-fondo-mobile.png') repeat;
+        background-size: 100%;
+        box-shadow: none;        
+    }
+    .modalenigma .modal-content {
+        padding: 40px;
+        margin-right: 160px;
+    }
+}
+
+@media (max-width: 600px){    
+    .modalenigma .modal-content {
+        margin-right: 0px;
+    }
+}
+.modalenigma p {
+    text-align: center;
+}
+.title-centered {
+    margin-bottom: 0;
+}
+.title-centered p{
+    text-align: center;
+}
+.grid-puntos-debiles input {
+    height: 1.2rem!important;
+    margin-bottom: 10px!important;
+    padding: 0 0 10px 10px!important;
+}
+.punto-debil {
+    position: relative;
+    margin-top: 1rem;
+    height: 30px;
+    margin-bottom: 25px;
+    border-bottom:1px solid #9e9e9e;
+}
+
+.punto-debil p{
+    
+        margin-bottom: 10px!important;
+        padding: 0 0 10px 10px!important;    
+}
+.contraresta {
+    height: 40px;
+}
+
+
+.modalganador {
+    background: url('../explorador/images/ganador/ganador-gif-cook.gif') no-repeat center;
+    width: 900px;
+    height: 520px;
+    box-shadow: none;
+}
+.modalganador .modal-content {
+    width: 600px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.modal-footer .verdeoscuro {
+        margin-right: 100px!important;
+}
+
+.verganador {
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 40px;
+}
+.ganador {
+    position: relative;
+    text-align: center;
+    color: #CD841D;
+    font-weight: 700;
+    font-size: 32px;
+    width: 100%;
+}
+.modalganador .responsive-screen {
+    display: none;
+}
+@media (max-width: 900px){
+    .modalganador {
+        background: url('../explorador/images/ganador/fondo-ganador-responsivo.png') repeat-y center;
+        width: 100%;
+        height: 520px;
+        box-shadow: none;
+    }
+    .modalganador .modal-content {
+        width: 90%;
+        /*height: 350px;*/
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+    .ganador {
+        position: relative;
+        text-align: center;
+        color: #CD841D;
+        font-weight: 700;
+        font-size: 32px;
+        width: 100%;
+    }
+    .modalganador .responsive-screen {
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.grid-ideasatacar .ideas-listado {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    height: 180px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+    margin-bottom: 20px;
+}
+.reformulaciones-menu a {
+    cursor: pointer;
+}
+.binnakle-explorador-reformulaciones .grid-ideasatacar input[type=text] {
+    margin-bottom: 10px;
+}
+#ideaslistado_2, #ideaslistado_3 {
+    display: none;
+}
+
+
+
+/*  ############################ mision 3b ################################    */
+
+.grid-ideasdefender .ideas-listado {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    height: 180px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+    margin-bottom: 20px;
+}
+.grid-ideasdefender .ideasdefender-listado {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    height: 140px;
+    overflow-y: scroll;
+    border: 1px solid rgb(197, 194, 194);
+    margin-bottom: 0px;
+}
+#defenderlistado_2, #defenderlistado_3 {
+    display: none;
+}
+
+.idea-defender-agregada {
+    width: 100%;
+    float: left;
+}
+
+.idea-defender-agregada a {
+    color: #000;
+}
+.idea-defender-agregada input.idea-defender-agregada {
+    float: left;
+    width: 75%;
+    height: 20px;
+    border-bottom: none;
+}
+.idea-defender-agregada a.idea-defender-action {
+    float: right;
+   
+    cursor: pointer;
+}
+.idea-defender-agregada button.idea-defender-action {
+    float: left;
+    width: 10%;
+    border: none;
+    background: none;
+}
+
+.idea-defender-agregada:disabled {
+    border-bottom: none!important;
+    color: #333!important;
+}
+input.idea-defender-agregada {
+    float: left!important;
+    width: 45%!important;
+}
+/*  ############################ resumen ################################    */
+.binnakle-explorador-resumen .nomarginbottom {
+    margin-bottom: 5px;
+}
+.binnakle-explorador-resumen h1 {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+.binnakle-explorador-resumen h2 {
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+.binnakle-explorador-resumen h3.color-verde {
+    color: #799900;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.resumen-title {
+    font-size: 22px;
+    color: #000;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.cuadro-link {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.cuadro-link-indiana {
+    background: #A13F2A;
+}
+.cuadro-link-tuareg {
+    background: #090708;
+}
+.cuadro-link-livingstone {
+    background: #A8781E;
+}
+.cuadro-link-cook {
+    background: #16476D;
+}
+.mision-name span {
+    font-weight: 700;
+}
+.mision-name {
+margin-bottom: 0;
+}
+.mision-eye {
+    float: left;
+    margin-right: 5px;
+    color: #799900; 
+    height: 20px;
+}
+.mision-eye a {
+    color: #799900; 
+}
+.mision-eye-title {
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+}
+.mision-link {
+    width: 100%;
+    float: left;
+}
+.mision-separator {
+    width: 100%;
+    height: 10px;
+    float: left;
+}
+
+.resumen-ranking .ranking-title{
+    color: #E0BE41;
+    font-size: 18px;
+    font-weight: 700;
+}
+.resumen-ranking .team {
+    width: 80%;
+    float: left;
+    height: auto;
+}
+.resumen-ranking .teamname {
+    float: left;
+}
+.resumen-ranking .teamscore {
+    float: right;
+    font-weight: 700;
+}
+.resumen-boton a {
+    float: right;
+}
+
+/*  ############################## misión 4 ###################################  A8781E */
+
+body.explorador .mision4 .material-form h2.verde-binnakle {
+    color: #A8781E;
+}
+
+form.form-verde-binnakle textarea:focus {
+    border-bottom: 1px solid #799900!important;
+    box-shadow: 0 1px 0 0 #799900!important;
+}
+.help-button {
+    margin-top: 40px;
+}
+.mision4 textarea.materialize-textarea {
+    padding:10px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+.mision4 textarea.materialize-textarea:focus+label {
+    color: #799900;
+
+}
+.textarea-separator {
+    height: 60px;
+    padding-top: 36px;
+}
+.mision4 .grid-reformulaciones {
+    margin-top: 40px;
+}
+.carousel-item {
+background: #fff;
+border-top: 1px solid #DFE5C5;
+border-bottom: 1px solid #DFE5C5;
+}
+body.explorador .material-form .carousel-item h2 {
+    background: #A8781E;
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.middle-indicator{
+    position:absolute;
+    /*top:50%;*/
+}
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 0px;
+}
+
+.middle-indicator-text{
+    font-size: 4.2rem;
+}
+a.middle-indicator-text{
+     color:#A8781E !important;
+}
+.content-indicator{
+     width: 64px;
+     height: 64px;
+     background: none;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px; 
+}
+.indicators .indicator-item {
+    border: 1px solid #A8781E;
+}
+.indicators .indicator-item.active {
+    background-color: #A8781E!important;
+}
+.carousel-item h2 {
+    color:#A8781E;
+    margin-top: 40px;
+}
+.carousel {
+    height: 360px!important;
+}
+.carousel.carousel-slider .carousel-item {
+    min-height: 200px!important;
+    /*height: 300px;*/
+}
+.save-button-div {
+    margin-top: 20px;
+}
+.btn.marronoscuro {
+    background: #A8781E;
+    color: #fff;
+}
+.mision4 .collapsible-header {
+    color: #A8781E;
+    text-transform: uppercase;
+}

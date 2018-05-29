@@ -1,0 +1,207 @@
+body.admin .pasaportes {
+    background: #EEF6FB;
+    min-height: 654px; 
+    background: #EEF6FB url('../images/sombracelestebot.png') repeat-x bottom;
+}
+.playertype {
+    margin-left: 10px;
+    color: #09AAAA;
+}
+.section-title p{
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.section-title {
+    display: none;
+    margin-left: 70px!important;
+}
+@media (max-width: 1200px){
+    .playertype { 
+        display: none;
+    }
+    .playertype-top { 
+        display: block;
+    }
+    .section-title {
+        display: block;
+    }
+
+    
+
+}
+ul.mainmenu li a:hover, ul.mainmenu li.active a {
+    color: #09AAAA;
+}
+header {
+    border-top: 6px solid #09AAAA;;
+}
+.nav-pasaportes-inner {
+    width: 100%;
+    float: left;
+}
+.nav-pasaportes ul{
+    padding-left: 0;
+    list-style-type: none;
+    margin: 20px 40px;
+}
+.nav-pasaportes ul li{
+    padding: 0;
+    margin: 0px 40px;
+    display: inline;
+}
+.nav-pasaportes ul li a{
+    color: #09AAAA;
+}
+.nav-pasaportes ul li.active a{
+    font-weight: bold;
+}
+.form {
+    padding: 20px 40px 0 40px;
+}
+.btn.blue {
+    background-color: #09AAAA!important;
+}
+.btn.blue:hover {
+    background-color: rgb(8, 117, 117)!important;
+}
+.input-field-bordered {
+    margin-top: 1rem;
+}
+.input-field-bordered input {
+border: 1px solid #c1bebe!important;
+background: #fff!important;
+height: 35px!important;
+}
+.input-field-select {
+    margin-top: 6px!important;
+}
+.list {
+    padding: 0  40px 20px 40px;
+    width: 100%;
+}
+.list .table {
+    border: 1px solid #000;
+    overflow-y: scroll;
+    max-height: 400px;
+
+}
+.list .table a{
+    color: #000;
+}
+.shadow-div {
+    width: 100%;
+    height: 40px;
+}
+
+.top-shadow {
+    width: 100%;
+    height: 40px;
+    background: url('../images/sombracelestetop.png') repeat-x top;
+    /*
+    -webkit-box-shadow: 0px 20px 42px 0px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 20px 42px 0px rgba(51,51,51,1);
+    box-shadow: 0px 20px 42px 0px rgba(51,51,51,1);
+*/
+
+}
+
+.bot-shadow {
+    width: 100%;
+    height: 40px;
+}
+h6.pasaporte-title {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.pasaportes.registro .form label {
+    color: #000;
+}
+.pasaportes.registro .form {
+    margin-top: 80px;
+}
+.pasaportes.registro .form button {
+    margin-left: 20px;
+}
+
+/*  ####################### archivos ############################ -*/
+.pasaportes .file-path.validate {
+    border-bottom: none;
+}
+.pasaportes .file-field .btn {
+    height: 36px;
+    line-height: 36px;
+}
+
+/*  ######################### preguntas ##############################*/
+.modalpeguntas {
+    min-height: 400px;
+    width: 90%;
+}
+#respuestas-list {    
+    margin-top: 14px;
+    float: left;
+    width: 100%;
+    float: left;
+}
+.respuesta-row {
+    width: 100%;
+    float: left;
+}
+.respuesta-radio {
+    float: left;
+    width: 10%;
+    margin-top: 10px;
+}
+.respuesta-input {
+    float: right;
+    width: 90%;
+    position: relative;
+    margin-top: 0px;
+}
+.nueva-respuesta-row {
+    width: 100%;
+    float: left;
+}
+.nueva-respuesta-input {
+    width: 40%;
+    float: left;
+}
+.nueva-respuesta-buton {
+    width: 10%;
+    float: left;
+}
+.idea_mas {
+    text-decoration: none;
+    color: #fff;
+    background-color: #799900;
+    text-align: center;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 24px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 6px;
+}
+.idea_mas:hover {
+    background-color: #799900;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.actions {
+    margin-top: 15px;
+}

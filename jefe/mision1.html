@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle - Misión</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/jefe.css" rel="stylesheet">
+</head>
+<body class="jefe">
+<!--/.top-bar-->
+<section id="top-bar">
+    <div class="top-bar">
+        <nav class="nav-top-bar">
+            <div class="nav-wrapper">   
+                <div class="playertype-top">Jefe de Expedición</div>               
+                <ul class="right">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                    </ul>				
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--/.top-bar-->
+
+<section>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <div class="playertype">Jefe de Expedición</div>
+                <ul class="right hide-on-med-and-down mainmenu">
+                    <li><a href="#">PERFIL<i class="material-icons right">person</i></a></li>
+                    <li class="active"><a href="#">PARTIDAS<i class="material-icons right">work</i></a></li>
+                    <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">PERFIL</a></li>
+                    <li class="active"><a href="#">PARTIDAS</a></li>
+                    <li><a href="#">SALIR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</section>
+
+<section class="leftcentercolumn">
+
+<!--left-menu-->
+    <div id="slide-out" class="side-nav leftmenu">
+
+        <!--left-positions-->
+<div class="container-left-positions">
+    <div class="row left-positions">
+        <div class="left-ranking-bikles">           
+
+            <div class="left-team left-team1">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-1.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-indiana-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Indiana</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team2">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-2.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-cook-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Cook</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team3">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-3.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-tuareg-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Tuareg</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team4">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-4.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-livingstone-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Livingstone</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="left-ranking-refresh">
+            <button class="btn refresh">Actualizar</button>
+            <button class="btn go"><img src="images/arrow-go-bg-none.png"></button>
+
+        </div>
+    </div>
+</div>
+<!--left-positions-->
+
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li class="sub-active">
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li>
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+</div>
+<a id="activationleftmenu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">navigate_next</i></a>
+<!--left-menu-->
+
+<!--left-column-->
+<div class="leftcolumn">
+
+<!--left-positions-->
+<div class="container-left-positions">
+    <div class="row left-positions">
+        <div class="left-ranking-bikles">           
+
+            <div class="left-team left-team1">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-1.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-indiana-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Indiana</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team2">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-2.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-cook-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Cook</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team3">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-3.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-tuareg-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Tuareg</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team4">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-4.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-livingstone-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Livingstone</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="left-ranking-refresh">
+            <button class="btn refresh">Actualizar</button>
+            <button class="btn go"><img src="images/arrow-go-bg-none.png"></button>
+
+        </div>
+    </div>
+</div>
+<!--left-positions-->
+
+
+            <div class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">Administrar Partida</a>
+                        <ul>
+                            <li>
+                                <a href="#">Datos</a>
+                            </li>
+                            <li>
+                                <a href="#">Equipos</a>
+                            </li>
+                            <li>
+                                <a href="#">Agenda</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#">Jugar Partida</a>
+                        <ul>
+                            <li class="sub-active">
+                                <a href="#">M1 Explora</a>
+                            </li>
+                            <li>
+                                <a href="#">M2 Diverge</a>
+                            </li>
+                            <li>
+                                <a href="#">M3 Converge</a>
+                            </li>
+                            <li>
+                                <a href="#">M4 Convence</a>
+                            </li>
+                            <li>
+                                <a href="#">Ranking</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active overactive">
+                        <a href="#">RESUMEN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!--left-column-->
+        
+
+<!-- mision content -->
+
+<!-- mision content -->
+<div class="centercolumn mision">
+    <div class="centercolumn-inner">
+        <form class="material-form col s12 form-verde-binnakle">
+            <div class="grid-mision-detail">
+                <div class="row">     
+                    <div class="col s12 section-mision-title">
+                        <h1><strong>MISIÓN 1. LA LAGUNA DE LOS INTERROGANTES:</strong> ¡Explora para encontrar nuevas preguntas!</h1>
+                    </div>
+                    <div class="col s12 m6 link-with-arrow">
+                        <p>NOMBRE DEL RETO LOREM IPSUM SIT AMET</p><a class="arrow-go-bg-green" href=""><img src="images/arrow-go-bg-green.png"></a>
+                    </div>
+                    <div class="col s12 m6 link-with-arrow">
+                        <p>PASAPORTE PARTIDA</p><a class="arrow-go-bg-green" href=""><img src="images/arrow-go-bg-green.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-mision-icons">
+                <div class="row">
+                    <div class="col s12 m3 icons">
+                        <a href="#"><img src="images/icons/icon-pizarra.png"><br><span>Introducción</span></a>
+                    </div>
+                    <div class="col s12 m3 icons">
+                        <a href="#"><img src="images/icons/icon-video.png"><br><span>Video M1 Explora</span></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3 icons">
+                        <a href="#"><img src="images/icons/icon-pizarra.png"><br><span>Introducción</span></a>
+                    </div>
+                    <div class="col s12 m3 icons">
+                        <a href="#"><img src="images/icons/icon-video.png"><br><span>Video M1 Explora</span></a>
+                    </div>
+                </div>
+            </div>                
+            <div class="grid-mision">
+                <div class="row">                        
+                    <div class="col s12 m6 link-with-arrow">
+                        <p>REFORMULACIONES</p><a class="arrow-go-bg-green modal-trigger" href="#modalreformulaciones"><img src="images/arrow-go-bg-green.png"></a>
+                    </div>
+                </div>                    
+            </div>
+
+            
+           
+
+            <div class="grid-users-list">
+                <div class="row">                        
+                    <div class="col s12 m12 l12 goteamsbutton2">
+                        
+                        <div class="jefe-mision-boton">
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">M2 Diverge<i class="material-icons right">chevron_right</i></a>
+                        </div>
+                        <div class="jefe-mision-boton">
+                                <a class="waves-effect waves-light btn bg-verde-binnakle">Guardar</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="modalreformulaciones" class="modal modalreformulaciones">
+
+<div class="modal-header">
+    <div class="sombreros">
+        <div class="sombrero">
+            <button class="browser-default sombrero-indiana button-sombrero" data-sombrero="indiana"></button>
+        </div>
+        <div class="sombrero">
+            <button class="browser-default sombrero-cook button-sombrero" data-sombrero="cook"></button>
+        </div>
+        <div class="sombrero">
+            <button class="browser-default sombrero-tuareg button-sombrero" data-sombrero="tuareg"></button>
+        </div>
+        <div class="sombrero">
+            <button class="browser-default sombrero-livingstone button-sombrero" data-sombrero="livingstone"></button>
+        </div>
+    </div>           
+</div>
+
+<div class="modal-content">
+    <div class="grid-reformulaciones">
+        <div class="row">
+            <div class="col s12 m2 reformulaciones-equipo valign-wrapper">
+                <p class="equipo">Indiana</p>
+            </div>
+            <div class="col s12 m5 reformulaciones-clasicas">
+                <p class="resultado-tipo">Clásicas</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext1" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1_1" id="idea1_1" data-idea="1_1" />
+                            <label for="idea1_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1_2" id="idea1_2" data-idea="1_2" />
+                            <label for="idea1_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam1[]" id="ideateam_1_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam1[]" id="ideateam_1_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext2" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea2_1" id="idea2_1" data-idea="2_1" />
+                            <label for="idea2_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea2_2" id="idea2_2" data-idea="2_2" />
+                            <label for="idea2_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam2[]" id="ideateam_2_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam2[]" id="ideateam_2_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext3" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea3_1" id="idea3_1" data-idea="3_1" />
+                            <label for="idea3_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea3_2" id="idea3_2" data-idea="3_2" />
+                            <label for="idea3_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam3[]" id="ideateam_3_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam3[]" id="ideateam_3_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <div class="col s12 m5 reformulaciones-rompedoras">
+                <p class="resultado-tipo">Rompedoras</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext101" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea101_1" id="idea101_1" data-idea="101_1" />
+                            <label for="idea101_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea101_2" id="idea101_2" data-idea="101_2" />
+                            <label for="idea101_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam101[]" id="ideateam_101_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam101[]" id="ideateam_101_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext102" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea102_1" id="idea102_1" data-idea="102_1" />
+                            <label for="idea102_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea102_2" id="idea102_2" data-idea="102_2" />
+                            <label for="idea102_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam102[]" id="ideateam_102_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam102[]" id="ideateam_102_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext103" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea103_1" id="idea103_1" data-idea="103_1" />
+                            <label for="idea103_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea103_2" id="idea103_2" data-idea="103_2" />
+                            <label for="idea103_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam103[]" id="ideateam_103_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam103[]" id="ideateam_103_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+        <div class="row">
+            <div class="col s12 m2 reformulaciones-equipo valign-wrapper">
+                <p class="equipo">Cook</p>
+            </div>
+            <div class="col s12 m5 reformulaciones-clasicas">
+                <p class="resultado-tipo">Clásicas</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext4" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea4_1" id="idea4_1" data-idea="4_1" />
+                            <label for="idea4_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea4_2" id="idea4_2" data-idea="4_2" />
+                            <label for="idea4_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam4[]" id="ideateam_4_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam4[]" id="ideateam_4_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext5" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea5_1" id="idea5_1" data-idea="5_1" />
+                            <label for="idea5_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea5_2" id="idea5_2" data-idea="5_2" />
+                            <label for="idea5_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam5[]" id="ideateam_5_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam5[]" id="ideateam_5_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext6" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea6_1" id="idea6_1" data-idea="6_1" />
+                            <label for="idea6_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea6_2" id="idea6_2" data-idea="6_2" />
+                            <label for="idea6_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam6[]" id="ideateam_6_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam6[]" id="ideateam_6_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <div class="col s12 m5 reformulaciones-rompedoras">
+                <p class="resultado-tipo">Rompedoras</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext104" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea104_1" id="idea104_1" data-idea="104_1" />
+                            <label for="idea104_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea104_2" id="idea104_2" data-idea="104_2" />
+                            <label for="idea104_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam104[]" id="ideateam_104_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam104[]" id="ideateam_104_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext105" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea105_1" id="idea105_1" data-idea="105_1" />
+                            <label for="idea105_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea105_2" id="idea105_2" data-idea="105_2" />
+                            <label for="idea105_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam105[]" id="ideateam_105_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam105[]" id="ideateam_105_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext106" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea106_1" id="idea106_1" data-idea="106_1" />
+                            <label for="idea106_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea106_2" id="idea106_2" data-idea="106_2" />
+                            <label for="idea106_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam106[]" id="ideateam_106_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam106[]" id="ideateam_106_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="row">
+            <div class="col s12 m2 reformulaciones-equipo valign-wrapper">
+                <p class="equipo">Tuareg</p>
+            </div>
+            <div class="col s12 m5 reformulaciones-clasicas">
+                <p class="resultado-tipo">Clásicas</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext7" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea7_1" id="idea7_1" data-idea="7_1" />
+                            <label for="idea7_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea7_2" id="idea7_2" data-idea="7_2" />
+                            <label for="idea7_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam7[]" id="ideateam_7_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam7[]" id="ideateam_7_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext8" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea8_1" id="idea8_1" data-idea="8_1" />
+                            <label for="idea8_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea8_2" id="idea8_2" data-idea="8_2" />
+                            <label for="idea8_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam8[]" id="ideateam_8_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam8[]" id="ideateam_8_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext9" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea9_1" id="idea9_1" data-idea="9_1" />
+                            <label for="idea9_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea9_2" id="idea9_2" data-idea="9_2" />
+                            <label for="idea9_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam9[]" id="ideateam_9_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam9[]" id="ideateam_9_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <div class="col s12 m5 reformulaciones-rompedoras">
+                <p class="resultado-tipo">Rompedoras</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext107" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea107_1" id="idea107_1" data-idea="107_1" />
+                            <label for="idea107_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea107_2" id="idea107_2" data-idea="107_2" />
+                            <label for="idea107_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam107[]" id="ideateam_107_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam107[]" id="ideateam_107_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext108" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea108_1" id="idea108_1" data-idea="108_1" />
+                            <label for="idea108_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea108_2" id="idea108_2" data-idea="108_2" />
+                            <label for="idea108_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam108[]" id="ideateam_108_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam108[]" id="ideateam_108_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext109" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea109_1" id="idea109_1" data-idea="109_1" />
+                            <label for="idea109_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea109_2" id="idea109_2" data-idea="109_2" />
+                            <label for="idea109_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam109[]" id="ideateam_109_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam109[]" id="ideateam_109_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="row">
+            <div class="col s12 m2 reformulaciones-equipo valign-wrapper">
+                <p class="equipo">Livingstone</p>
+            </div>
+            <div class="col s12 m5 reformulaciones-clasicas">
+                <p class="resultado-tipo">Clásicas</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext11" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea10_1" id="idea10_1" data-idea="10_1" />
+                            <label for="idea10_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea10_2" id="idea10_2" data-idea="10_2" />
+                            <label for="idea10_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam10[]" id="ideateam_10_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam10[]" id="ideateam_10_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext11" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea11_1" id="idea11_1" data-idea="11_1" />
+                            <label for="idea11_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea11_2" id="idea11_2" data-idea="11_2" />
+                            <label for="idea11_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam11[]" id="ideateam_11_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam11[]" id="ideateam_11_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext12" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea12_1" id="idea12_1" data-idea="12_1" />
+                            <label for="idea12_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea12_2" id="idea12_2" data-idea="12_2" />
+                            <label for="idea12_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam12[]" id="ideateam_12_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam12[]" id="ideateam_12_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <div class="col s12 m5 reformulaciones-rompedoras">
+                <p class="resultado-tipo">Rompedoras</p>                        
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext1010" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1010_1" id="idea1010_1" data-idea="1010_1" />
+                            <label for="idea1010_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1010_2" id="idea1010_2" data-idea="1010_2" />
+                            <label for="idea1010_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam1010[]" id="ideateam_1010_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam1010[]" id="ideateam_1010_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext1011" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1011_1" id="idea1011_1" data-idea="1011_1" />
+                            <label for="idea1011_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1011_2" id="idea1011_2" data-idea="1011_2" />
+                            <label for="idea1011_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam1011[]" id="ideateam_1011_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam1011[]" id="ideateam_1011_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+                <div class="select-checkbox">
+                    <div class="vote-data">
+                        <div class="idea-text">
+                            <label id="ideatext1012" class="label-checked-0">Lorem imput sit amet</label>
+                        </div>
+                        <div class="idea-checkbox">
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1012_1" id="idea1012_1" data-idea="1012_1" />
+                            <label for="idea1012_1"></label>
+                            <input type="checkbox" class="filled-in checkbox-sombrero" name="idea1012_2" id="idea1012_2" data-idea="1012_2" />
+                            <label for="idea1012_2"></label>
+                            <input type="hidden" class="hidden-team" name="ideateam1012[]" id="ideateam_1012_1" value="0" />
+                            <input type="hidden" class="hidden-team" name="ideateam1012[]" id="ideateam_1012_2" value="0" />
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+        </div> 
+
+    </div>
+</div>
+<div class="modal-footer">
+    <a href="#!" class="btn waves-effect waves-light white">Guardar</a>
+    <a href="#!" class="btn waves-effect waves-light white">Enviar</a>
+</div>
+</div>
+<!-- mision content -->
+
+<!-- mision content -->
+
+    </section>
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jefe.js"></script>
+</body>
+</html>

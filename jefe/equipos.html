@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle admin</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/jefe.css" rel="stylesheet">
+</head>
+<body class="jefe">
+<!--top-bar-->
+<section id="top-bar">
+    <div class="top-bar">
+        <nav class="nav-top-bar">
+            <div class="nav-wrapper">   
+                <div class="playertype-top">Jefe de Expedición</div>               
+                <ul class="right">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                    </ul>				
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--top-bar-->
+<!--header-->
+<section id="header">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <div class="playertype">Jefe de Expedición</div>
+                <ul class="right hide-on-med-and-down mainmenu">
+                    <li><a href="#">PERFIL<i class="material-icons right">person</i></a></li>
+                    <li class="active"><a href="#">PARTIDAS<i class="material-icons right">work</i></a></li>
+                    <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">PERFIL</a></li>
+                    <li class="active"><a href="#">PARTIDAS</a></li>
+                    <li><a href="#">SALIR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</section>
+<!--header-->
+<!--left_menu-->
+
+<div id="slide-out" class="side-nav leftmenu">
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li class="sub-active">
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li>
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+</div>
+<a id="activationleftmenu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">navigate_next</i></a>
+<!--left_menu-->
+<!--left_column-->
+<div class="leftcolumn">
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li class="sub-active">
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li>
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--left_column-->
+<!--content-->
+<div class="centercolumn nuevo-reto">
+    <div class="centercolumn-inner">
+        <form class="material-form col s12 form-verde-binnakle">
+            <div class="grid-confirmados">
+                <div class="row">
+                        <div class="equipo-titulo confirmados">EXPLORADORES CONFIRMADOS</div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-confirmados">
+                <div class="grid-confirmados-list  list-equipos" >
+                    <div class="row">
+                        <div class="col s12 m12 l12 xl12 can-drag-here" id="list-equipos" ondrop="drop(event)" ondragover="over(event)" ondragenter="enter(event)" ondragleave="leave(event)">
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante1">
+                                <input type="checkbox" class="participante" id="participante1" />
+                                <label for="participante1">participanteUno@binnakle.global</label>
+                            </div>                                
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante3">
+                                <input type="checkbox" class="participante" id="participante3" />
+                                <label for="participante3">participanteTres@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante4">
+                                <input type="checkbox" class="participante" id="participante4" />
+                                <label for="participante4">participante4@binnakle.global</label>
+                            </div> 
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante5">
+                                <input type="checkbox" class="participante" id="participante5" />
+                                <label for="participante5">participante5@binnakle.global</label>
+                            </div>                             
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante6">
+                                <input type="checkbox" class="participante" id="participante6" />
+                                <label for="participante6">participante6@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante7">
+                                <input type="checkbox" class="participante" id="participante7" />
+                                <label for="participante7">participante7@binnakle.global</label>
+                            </div> 
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante8">
+                                <input type="checkbox" class="participante" id="participante8" />
+                                <label for="participante8">participante8@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante9">
+                                <input type="checkbox" class="participante" id="participante9" />
+                                <label for="participante9">participante9@binnakle.global</label>
+                            </div>                               
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante10">
+                                <input type="checkbox" class="participante" id="participante10" />
+                                <label for="participante10">participante10@binnakle.global</label>
+                            </div>                                    
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante11">
+                                    <input type="checkbox" class="participante" id="participante11" />
+                                    <label for="participante11">participante11@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante12">
+                                    <input type="checkbox" class="participante" id="participante12" />
+                                    <label for="participante12">participante12@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante13">
+                                    <input type="checkbox" class="participante" id="participante13" />
+                                    <label for="participante13">participante13@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante14">
+                                    <input type="checkbox" class="participante" id="participante14" />
+                                    <label for="participante14">participante14@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante15">
+                                    <input type="checkbox" class="participante" id="participante15" />
+                                    <label for="participante15">participante15@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante16">
+                                    <input type="checkbox" class="participante" id="participante16" />
+                                    <label for="participante16">participante16@binnakle.global</label>
+                            </div>  
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante18">
+                                    <input type="checkbox" class="participante" id="participante18" />
+                                    <label for="participante18">participante18@binnakle.global</label>
+                            </div> 
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante19">
+                                    <input type="checkbox" class="participante" id="participante19" />
+                                    <label for="participante19">participante19@binnakle.global</label>
+                            </div>                                 
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante20">
+                                    <input type="checkbox" class="participante" id="participante20" />
+                                    <label for="participante20">participante20@binnakle.global</label>
+                            </div>
+                        
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-equipos list-equipos">
+                <div class="row">
+                    <div class="col s12 m6 l6 xl6">
+                        <div class="equipo-titulo">EQUIPO INDIANA</div>
+                        <div class="equipo can-drag-here" id="equipo_indiana" ondrop="drop(event)" ondragover="over(event)" ondragenter="enter(event)" ondragleave="leave(event)">
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante2">
+                                <input type="checkbox" class="participante" id="participante2" checked="checked" />
+                                <label enable="false" disable="disable" for="participante2">participanteDos@binnakle.global</label>
+                            </div>
+                            <div class="team-draggable" draggable="true" ondragstart="drag(event)" id="div_participante17">
+                                <input type="checkbox" class="participante" id="participante17" checked="checked" />
+                                <label for="participante17">participante17@binnakle.global</label>
+                            </div>                                        
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6 xl6">
+                        <div class="equipo-titulo">EQUIPO LIVINGSTONE</div>
+                        <div class="equipo can-drag-here" id="equipo_livingstone" ondrop="drop(event)" ondragover="over(event)" ondragenter="enter(event)" ondragleave="return leave(event)">
+
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6 xl6">
+                        <div class="equipo-titulo">EQUIPO TUAREG</div>
+                        <div class="equipo can-drag-here" id="equipo_tuareg" ondrop="drop(event)" ondragover="over(event)" ondragenter="enter(event)" ondragleave="return leave(event)">
+
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6 xl6">
+                        <div class="equipo-titulo">EQUIPO COOK</div>
+                        <div class="equipo can-drag-here" id="equipo_cook" ondrop="drop(event)" ondragover="over(event)" ondragenter="enter(event)" ondragleave="return leave(event)">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="grid-botones">
+                <div class="row">
+                    <div class="col s12 l6 xl6">
+                        <button class="btn waves-effect waves-light white" type="button" name="asignar">ASIGNAR AUTOMÁTICAMENTE</button>
+                    </div>
+                    <div class="col s12 l6 xl6">
+                        <button class="btn waves-effect waves-light white" type="button" name="imprimir">IMPRIMIR PLANTILLA DE EQUIPO</button>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col s12 l6 xl6">
+                        <button class="btn waves-effect waves-light white" type="button" name="modificar">MODIFICAR</button>
+                    </div>
+                    <div class="col s12 l6 xl6">
+                        <button class="btn waves-effect waves-light white" type="button" name="guardar">GUARDAR</button>
+                        <button class="btn waves-effect waves-light white right" type="button" name="agenda">ir a agenda<i class="material-icons right">chevron_right</i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!--content-->
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script src="js/jefe.js"></script>
+</body>
+</html>

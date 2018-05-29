@@ -1,0 +1,347 @@
+
+body.inicio {
+    background-image: url('../images/fondo-inicio.jpg');
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    height: 100%;
+    min-height: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #F8FDFF;
+}
+html {
+    height: 100%;
+}
+
+body.inicio .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.row-grid-inicio-title {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.nombre-partida {
+    margin: 10px 0;
+}
+.icono-right {
+    float: right;
+    margin-top: -47px;
+    margin-right: 100px;
+}
+.icono-right button{    
+    background: #fff;
+    color: #799900;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+}
+.icono-right button:hover {
+    color: #5a7204;
+}
+.icono-play {
+    margin: 0 auto;
+    width: 45px;
+    height: 40px;
+}
+.icono-play button {
+    background: #fff;
+    color: #799900;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+}
+.icono-play button:hover {
+    color: #5a7204;
+}
+
+.tipo-partida {
+    margin: 10px 0;
+    float: right;
+    letter-spacing: 2px;
+}
+.fecha-partida {
+    margin: 10px 0;
+    float: left;
+    letter-spacing: 4px;
+    padding-left: 20px;
+}
+.row-grid-inicio-title span{
+background: #799900;
+
+padding: 4px 10px;
+border-radius: 2px;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 18px;
+}
+.row-grid-inicio-center {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+}
+.row-grid-inicio-center .inicio-center {
+    background: #fff;
+
+}
+.row-grid-inicio-center .inicio-center .inicio-center-inner{
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    background: #fff;
+    /*background:#fff url('../images/logo-evoltis.png') no-repeat center center;*/
+}
+
+.inicio-content .logo {    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid-inicio-icons {
+    margin: 40px 0;
+    float: left;
+    width: 100%;
+}
+.grid-inicio-icons .icons {
+    text-align: center;
+}
+.grid-inicio-icons a img{
+-webkit-transition: .3s ease-out;
+transition: .3s ease-out;
+-webkit-box-shadow: 3px 3px 3px 0px #0000003b;
+-moz-box-shadow: 3px 3px 3px 0px #0000003b;
+box-shadow: 3px 3px 3px 0px #0000003b;
+background: #fff;
+}
+.grid-inicio-icons a:hover img{
+    background-color: #E0E0E0!important;
+}
+.grid-inicio-icons .icons span {
+    font-size: 12px;
+}
+.grid-inicio-icons .icons a {
+    color: #799900;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+.row-grid-inicio-center {
+    text-align: center;
+}
+.inicio-center-inner {
+    text-align: center;
+
+}
+.inicio-center-image {
+    width: 40%;
+    height: 150px;
+    padding-top: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inicio-center-popup {
+    position: relative;
+    top: -260px;
+    /*left: 20%;*/
+    /*width: 60%;*/
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+.inicio-center-popup.hiddenme {
+    display: none;
+}
+.hiddenme {
+    display: none;
+}
+.inicio-center-popup img {
+    width: 100%;
+    height: auto;
+}
+
+.fecha-partida,
+.tipo-partida,
+.nombre-partida {
+    height: 27px;
+}
+.inicio-center-popup {
+    text-align: center
+}
+.popuptext {
+    position: relative;
+    top: -300px;
+    width: 100%;
+    padding: 20px 80px;
+    text-align: center;
+
+}
+.popuptext p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    } 
+
+    
+.slideOutLeft {
+    -webkit-animation-name: slideOutLeft;
+    animation-name: slideOutLeft;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideOutLeft {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    }
+    }
+    @keyframes slideOutLeft {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    }
+    } 
+
+@media (max-width:992px){
+    body.inicio .footer {
+        height: 150px;
+        position: relative;
+    }
+    .hidden-md {
+        display: none;
+    }
+
+    .row-grid-inicio-title.hidden-lg {
+        text-align: center;
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 0;
+    }    
+    .hidden-lg .icono-right {
+        float: none;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    
+    .hidden-lg .tipo-partida {
+        margin: 10px 0;
+        float: none;
+        letter-spacing: 1px;
+    }
+    .hidden-lg .fecha-partida {
+        margin: 10px 0;
+        float: none;
+        letter-spacing: 4px;
+        padding-left: 0;
+    }
+    .grid-inicio-icons.hidden-lg {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+    .grid-inicio-icons.hidden-lg .icons {
+        float: none;        
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .row-grid-inicio-center.hidden-lg {
+        margin-bottom: 0px;
+
+    }
+    .row-grid-inicio-center.hidden-lg .inicio-center .inicio-center-inner {
+        height: 100px;
+    }
+    .hidden-lg .inicio-center-image {
+        padding-top: 25px;
+        height: 100px;
+    }
+    .inicio-center-popup-mobile {
+        width: 90%;
+        max-width: 560px;
+        margin: 0 auto;
+        min-height: 200px;
+        background: url(../images/pergamino-sin-cintas-pantallainicio.png) center center;
+    }
+    .popuptext-mobile p{
+        text-align: center;color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 32px;
+        padding: 20px;
+    }
+    .body2 {
+        background-image: url('../images/fondo-inicio.jpg');
+        background-repeat: no-repeat;
+        height: 100%;
+        min-height: 100%;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-color: #F8FDFF;
+        float: left;
+        width: 100%;
+    }
+    .play-center {
+        margin-top: 40px;
+    }
+    .icono-play {
+        width: 34px;
+    }
+}
+
+@media (min-width:992px){
+    .hidden-lg {
+        display: none;
+    }
+}

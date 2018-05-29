@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle admin</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/admin.css" rel="stylesheet">
+</head>
+<body class="admin">
+<!--top-bar-->
+    <section id="top-bar">
+        <div class="top-bar">
+            <nav class="nav-top-bar">
+                <div class="nav-wrapper">   
+                    <div class="playertype-top">SUPER ADMIN</div>               
+                    <ul class="right">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                        </ul>				
+                      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+                </div>
+            </nav>
+        </div>
+    </section>
+<!--top-bar-->
+<!--header-->
+    <section id="header">
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <div class="playertype">SUPER ADMIN</div>
+                    <ul class="right hide-on-med-and-down mainmenu">
+                        <li><a href="#">PASAPORTES<i class="material-icons right">card_membership</i></a></li>
+                        <li><a href="#">JEFES<i class="material-icons right">group</i></a></li>
+                        <li><a href="#">CARTOGRAFÍA<i class="material-icons right">map</i></a></li>
+                        <li><a href="#">MATERIALES<i class="material-icons right">ondemand_video</i></a></li>
+                        <li class="active"><a href="#">PREGUNTAS<i class="material-icons right">ondemand_video</i></a></li>
+                        <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="#">PASAPORTES</a></li>
+                        <li><a href="#">JEFES</a></li>
+                        <li><a href="#">CARTOGRAFÍA</a></li>
+                        <li><a href="#">MATERIALES</a></li>
+                        <li class="active"><a href="#">PREGUNTAS</a></li>
+                        <li><a href="#">SALIR</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </section>
+<!--header-->
+<!--content-->
+
+<section>
+    <div class="pasaportes">
+        <div class="shadow-div"><div class="top-shadow"></div></div>        
+        <div class="form container-fluid">
+            <div class="row">
+                
+            </div>
+        </div>
+
+        <div class="form container-fluid">
+            <div class="row">
+                <div class="input-field input-field-select col s12 m2">
+                    <select>
+                        <option value="" disabled selected>Buscar por</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+                <div class="input-field-bordered col s12 m2">
+                    <input id="textsearch" type="text">
+                </div>
+                <div class="input-field col s12 m2">                
+                    <button class="btn waves-effect waves-light white" type="submit" name="invitar">Buscar</button>
+                </div>
+                <div class="input-field col s12 m6">
+                    <a class="btn waves-effect waves-light blue right modal-trigger new-question" href="#modalpeguntas">Nuevo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="list container-fluid">
+            <div class="table">
+                <div class="row">
+                    <div class="col s2 m2 actions">
+                        <a href="#modalpeguntas" class="modal-trigger edit-question" data-edit-question="1"><i class="material-icons left">edit</i></a>
+                        <a href="#"><i class="material-icons left">delete</i></a>
+                    </div>
+                    <div class="col s5 m5">
+                        <p>Lorem ipsum sit amet?</p>
+                    </div>
+                    <div class="col s5 m5">
+                        <p>Lorem ipsum respuesta Uno</p>
+                        <p><b>Lorem ipsum respuesta Dos</b></p>
+                        <p>Lorem ipsum respuesta Tres</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Modal -->
+<div id="modalpeguntas" class="modal modalpeguntas">
+    <div class="modal-content">
+        <form class="material-form form-verde-binnakle">
+            <div class="grid-reformulaciones">
+                <div class="row">
+                    <div class="col s12 m5 l5">
+                        <p id="editar-esta-pregunta">CREAR NUEVA PREGUNTA</p>
+                        <div class="input-field">
+                            <input type="text" id="reto1" name="reto1" class="validate">
+                            <label class="text-verde-binnakle" for="reto1">Encabezado de pregunta</label>
+                        </div>
+                    </div>
+                    <div class="col s12 m5 l5">                
+
+                        <div class="nueva-respuesta-row">                        
+                            <div class="nueva-respuesta-input">
+                                <p>Respuestas</p>
+                            </div>
+                            <div class="nueva-respuesta-buton">
+                                <button type="button" id="button-addresponse" class="idea_mas" onClick="addresponse()">+</button>
+                            </div>
+                        </div>                
+
+                        <div id="respuestas-list"></div>
+                    </div>
+                    <div class="input-field col s12 m2 l2">
+                        <p> </p>
+                        <div class="input-field">
+                            <button class="btn waves-effect waves-light blue right" type="submit" name="invitar">GUARDAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--content-->
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script> 
+    <script src="js/index.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+    
+</body>
+</html>

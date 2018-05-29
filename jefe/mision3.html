@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle - Misión</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/jefe.css" rel="stylesheet">
+</head>
+<body class="jefe">
+<!--/.top-bar-->
+<section id="top-bar">
+    <div class="top-bar">
+        <nav class="nav-top-bar">
+            <div class="nav-wrapper">   
+                <div class="playertype-top">Jefe de Expedición</div>               
+                <ul class="right">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                    </ul>				
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--/.top-bar-->
+
+<section>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <div class="playertype">Jefe de Expedición</div>
+                <ul class="right hide-on-med-and-down mainmenu">
+                    <li><a href="#">PERFIL<i class="material-icons right">person</i></a></li>
+                    <li class="active"><a href="#">PARTIDAS<i class="material-icons right">work</i></a></li>
+                    <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">PERFIL</a></li>
+                    <li class="active"><a href="#">PARTIDAS</a></li>
+                    <li><a href="#">SALIR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</section>
+
+<section class="leftcentercolumn">
+
+<!--left-menu-->
+    <div id="slide-out" class="side-nav leftmenu">
+
+        <!--left-positions-->
+<div class="container-left-positions">
+    <div class="row left-positions">
+        <div class="left-ranking-bikles">           
+
+            <div class="left-team left-team1">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-1.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-indiana-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Indiana</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team2">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-2.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-cook-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Cook</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team3">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-3.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-tuareg-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Tuareg</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team4">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-4.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-livingstone-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Livingstone</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="left-ranking-refresh">
+            <button class="btn refresh">Actualizar</button>
+            <button class="btn go"><img src="images/arrow-go-bg-none.png"></button>
+
+        </div>
+    </div>
+</div>
+<!--left-positions-->
+
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li class="sub-active">
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+</div>
+<a id="activationleftmenu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">navigate_next</i></a>
+<!--left-menu-->
+
+<!--left-column-->
+<div class="leftcolumn">
+
+<!--left-positions-->
+<div class="container-left-positions">
+    <div class="row left-positions">
+        <div class="left-ranking-bikles">           
+
+            <div class="left-team left-team1">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-1.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-indiana-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Indiana</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team2">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-2.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-cook-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Cook</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team3">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-3.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-tuareg-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Tuareg</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-team left-team4">
+                <div class="left-team-inner">
+                    <div class="left-team-star">
+                        <img src="images/ranking/left-star-4.png">
+                    </div>
+                    <div class="left-team-image">
+                        <img src="images/ranking/equipo-livingstone-ranking-left.png">
+                    </div>
+                    <div class="left-team-title">
+                        <p>Livingstone</p>
+                    </div>
+                    <div class="left-team-score">
+                        <p>+15</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="left-ranking-refresh">
+            <button class="btn refresh">Actualizar</button>
+            <button class="btn go"><img src="images/arrow-go-bg-none.png"></button>
+
+        </div>
+    </div>
+</div>
+<!--left-positions-->
+
+
+            <div class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">Administrar Partida</a>
+                        <ul>
+                            <li>
+                                <a href="#">Datos</a>
+                            </li>
+                            <li>
+                                <a href="#">Equipos</a>
+                            </li>
+                            <li>
+                                <a href="#">Agenda</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#">Jugar Partida</a>
+                        <ul>
+                            <li>
+                                <a href="#">M1 Explora</a>
+                            </li>
+                            <li>
+                                <a href="#">M2 Diverge</a>
+                            </li>
+                            <li class="sub-active">
+                                <a href="#">M3 Converge</a>
+                            </li>
+                            <li>
+                                <a href="#">M4 Convence</a>
+                            </li>
+                            <li>
+                                <a href="#">Ranking</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active overactive">
+                        <a href="#">RESUMEN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!--left-column-->
+        
+
+<!-- mision content -->
+
+
+
+
+
+
+
+
+<!-- mision content -->
+
+
+
+
+
+
+
+
+<!-- mision content -->
+<div class="centercolumn mision mision3">
+    <div class="centercolumn-inner">
+        <form class="material-form col s12 form-verde-binnakle">
+            <div class="grid-mision2-detail mision2-icons">
+                <div class="row">     
+                    <div class="col s12 section-mision-title">
+                        <h1><strong>MISIÓN 3. EL VALLE DE LAS DOS CARAS:</strong> Converge, "ateriza" tus ideas!</h1>
+                    </div>
+                   
+                          
+                    <!--<a class="instrucciones-text" href="#"><span>Video M2 diverge</span></a> -->
+
+                    <div class="col s12 m8 link-with-arrow first-link">
+                        <p>NOMBRE DEL RETO LOREM IPSUM SIT AMET</p><a class="arrow-go-bg-green" href=""><img src="images/arrow-go-bg-green.png"></a>
+
+                        <p class="instrucciones-xs"><a class="introduccion instrucciones-text icons" href="#"><img src="images/icons/icon-video.png"><br><span>Video M3 diverge</span></a></p>
+
+                        <p class="subtitle">IDEAS ELEGIDAS PARA DEFENDER POR CADA EQUIPO</p>
+                    </div>
+                    <div class="col s12 m4 icons hidexs">
+                        <a class="introduccion" href="#"><img src="images/icons/icon-video.png"><br><span>Video M3 diverge</span></a>                            
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="grid-mision">                    
+                <div class="row">                        
+                    <div class="col s12">
+                        <div class="ideas">
+                            <div class="idea">
+                                <h6>INDIANA</h6>
+                                <p>Idea A</p>
+                                <p>Idea B</p>
+                                <p>Idea C</p>
+                            </div>
+                            <div class="idea">
+                                <h6>LIVINGSTONE</h6>
+                                <p>Idea A</p>
+                                <p>Idea B</p>
+                                <p>Idea C</p>
+                            </div>
+                            <div class="idea">
+                                <h6>TUAREG</h6>
+                                <p>Idea A</p>
+                                <p>Idea B</p>
+                                <p>Idea C</p>
+                            </div>
+                            <div class="idea">
+                                <h6>COOK</h6>
+                                <p>Idea A</p>
+                                <p>Idea B</p>
+                                <p>Idea C</p>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        
+      
+                            
+            <div class="grid-mision">
+                <div class="row">                        
+                    <div class="col s12 m6">
+                        <p class="subtitle">ASIGNAR IDEAS A ATACAR:</p>
+                    </div>
+                </div>   
+                <div class="row">                        
+                    <div class="col s12">
+                        <div class="asignar-ideas">
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">ALEATORIO</a>
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">MANUAL</a>
+                        </div>
+                    </div>
+                </div>                     
+                                
+            </div>
+
+            <div class="grid-mision">   
+                
+                <div class="row">                        
+                    <div class="col s12 m6 link-with-arrow">
+                        <p class="subtitle">IDEAS QUE DEBE ATACAR CADA EQUIPO</p>
+                    </div>
+                </div> 
+                    <div class="row">                        
+                        <div class="col s12">
+                            <div class="ideas">
+                                <div class="idea">
+                                    <h6>INDIANA</h6>
+                                    <p>Idea A</p>
+                                    <p>Idea B</p>
+                                    <p>Idea C</p>
+                                </div>
+                                <div class="idea">
+                                    <h6>LIVINGSTONE</h6>
+                                    <p>Idea A</p>
+                                    <p>Idea B</p>
+                                    <p>Idea C</p>
+                                </div>
+                                <div class="idea">
+                                    <h6>TUAREG</h6>
+                                    <p>Idea A</p>
+                                    <p>Idea B</p>
+                                    <p>Idea C</p>
+                                </div>
+                                <div class="idea">
+                                    <h6>COOK</h6>
+                                    <p>Idea A</p>
+                                    <p>Idea B</p>
+                                    <p>Idea C</p>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+
+            <div class="grid-mision">
+                <div class="row">                        
+                    <div class="col s12 m12 link-with-arrow">
+                        <div class="ideas-atacar">
+                            <p class="ideas-subtitle">IDEAS A ATACAR</p>
+                            <a class="arrow-go-bg-green" href=""><span>1</span><img src="images/arrow-go-bg-green.png"></a>
+                            <a class="arrow-go-bg-green" href="">2<img src="images/arrow-go-bg-green.png"></a>
+                            <a class="arrow-go-bg-green" href="">3<img src="images/arrow-go-bg-green.png"></a>                            
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div class="row">                        
+                    <div class="col s12 m12 link-with-arrow">
+                        <div class="ideas-atacar">
+                            <p class="ideas-subtitle">IDEAS A DEFENDER</p>
+                            <a class="arrow-go-bg-green" href=""><span>1</span><img src="images/arrow-go-bg-green.png"></a>
+                            <a class="arrow-go-bg-green" href="">2<img src="images/arrow-go-bg-green.png"></a>
+                            <a class="arrow-go-bg-green" href="">3<img src="images/arrow-go-bg-green.png"></a>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-margin-bottom">                        
+                    <div class="col s12 m12">
+                        <p class="ideas-subtitle">PUNTOS DÉBILES</p>
+                    </div>
+                </div>
+                <div class="row">                        
+                    <div class="col s12 m12 puntos-debiles">
+                        <ul class="puntos-debiles ">
+
+                            <li class="collection-item">
+                                <div class="teamname">INDIANA</div>
+                                <div class="circle"><span>32</span></div>
+                                <div class="eye">
+                                    <a class="arrow-go-bg-green modal-trigger" href="#modalideas">
+                                        <i class="material-icons">remove_red_eye</i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div class="teamname">LIVINGSTONE</div>
+                                <div class="circle"><span>32</span></div>
+                                <div class="eye"><i class="material-icons">remove_red_eye</i></div>
+                            </li>
+                            <li class="collection-item">
+                                <div class="teamname">TUAREG</div>
+                                <div class="circle"><span>32</span></div>
+                                <div class="eye"><i class="material-icons">remove_red_eye</i></div>
+                            </li>
+                            <li class="collection-item">
+                                <div class="teamname">COOK</div>
+                                <div class="circle"><span>32</span></div>
+                                <div class="eye"><i class="material-icons">remove_red_eye</i></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                    
+            </div>
+
+            
+           
+
+            <div class="grid-users-list">
+                <div class="row">                        
+                    <div class="col s12 m12 l12 jefe-mision2-botones">
+                        
+                        <div class="jefe-mision-boton">
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">M4 Convence<i class="material-icons right">chevron_right</i></a>
+                        </div>  
+                        <div class="jefe-mision-boton">
+                            <a class="waves-effect waves-light btn bg-verde-binnakle">Guardar</a>
+                        </div>                          
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div id="modalideas" class="modal modalideas">
+    <form class="form-verde-binnakle">
+       <div class="modal-content">
+           <div class="grid-modalideas">
+
+               <div class="row">
+                   <div class="col s12">
+                       <ul class="tabs">
+                           <li class="tab col s3"><a class="active" href="#ideaa">IDEA A</a></li>
+                           <li class="tab col s3"><a href="#ideab">IDEA B</a></li>
+                           <li class="tab col s3"><a href="#ideac">IDEA C</a></li>
+                       </ul>
+                   </div>
+                   <div id="ideaa" class="col s12">
+                       <div class="ideas-ataqueydefensa">
+                           <div class="modalideas-title">IDEA A</div>
+                           <div class="ataqueydefensa-title">
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Ataque Indiana</p>
+                               </div>
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Defensa Tuareg</p>
+                               </div>
+                           </div>
+
+                           <div class="ataqueydefensa-idea" id="1">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="1"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="2">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="2"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="3">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="3"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="4">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="4"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="5">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="5"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="6">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="6"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="7">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="7"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>            
+                       </div> 
+                   </div>
+                   <div id="ideab" class="col s12">
+                       <div class="ideas-ataqueydefensa">
+                           <div class="modalideas-title">IDEA B</div>
+                           <div class="ataqueydefensa-title">
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Ataque Indiana</p>
+                               </div>
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Defensa Tuareg</p>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="8">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="8"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="9">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="9"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="10">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="10"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="11">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="11"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="12">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="12"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="13">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="13"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="14">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="14"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>                            
+                       </div>                        
+                   </div>
+                   <div id="ideac" class="col s12">                        
+                       <div class="ideas-ataqueydefensa">
+                           <div class="modalideas-title">IDEA C</div>
+                           <div class="ataqueydefensa-title">
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Ataque Indiana</p>
+                               </div>
+                               <div class="ataqueydefensa-title-col">
+                                   <p class="resultado-titulo">Defensa Tuareg</p>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="15">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="15"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="16">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="16"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="17">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="17"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="18">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="18"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="19">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="19"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="20">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="20"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+                           <div class="ataqueydefensa-idea" id="21">
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-col">
+                                   <p class="resultado-titulo">Lorem imput sit amet</p>
+                               </div>
+                               <div class="ataqueydefensa-idea-action">
+                                   <a class="delete-idea" data-idea-id="21"><i class="material-icons left">delete</i></a>
+                               </div>
+                           </div>
+
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="modal-footer">
+           <a href="#!" class="btn waves-effect waves-light white modal-action">Guardar</a>
+           <a href="#!" class="btn waves-effect waves-light white modal-action modal-close">Cerrar</a>
+       </div>
+   </form>
+</div>
+
+<!-- mision content -->
+
+    </section>
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>  
+    <script src="js/index.js"></script>
+    <script src="js/jefe.js"></script>
+</body>
+</html>

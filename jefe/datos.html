@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Binnakle admin</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="css/jefe.css" rel="stylesheet">
+</head>
+<body class="jefe">
+<!--top-bar-->
+<section id="top-bar">
+    <div class="top-bar">
+        <nav class="nav-top-bar">
+            <div class="nav-wrapper">   
+                <div class="playertype-top">Jefe de Expedición</div>               
+                <ul class="right">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Soporte</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">FAQ</a></li>                    
+                    </ul>				
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--top-bar-->
+<!--header-->
+<section id="header">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="../assets/images/logo.png" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <div class="playertype">Jefe de Expedición</div>
+                <ul class="right hide-on-med-and-down mainmenu">
+                    <li><a href="#">PERFIL<i class="material-icons right">person</i></a></li>
+                    <li class="active"><a href="#">PARTIDAS<i class="material-icons right">work</i></a></li>
+                    <li><a href="#">SALIR<i class="material-icons right">forward</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">PERFIL</a></li>
+                    <li class="active"><a href="#">PARTIDAS</a></li>
+                    <li><a href="#">SALIR</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</section>
+<!--header-->
+<!--left_menu-->
+
+<div id="slide-out" class="side-nav leftmenu">
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li class="sub-active">
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li>
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+</div>
+<a id="activationleftmenu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">navigate_next</i></a>
+<!--left_menu-->
+<!--left_column-->
+<div class="leftcolumn">
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Administrar Partida</a>
+                    <ul>
+                        <li class="sub-active">
+                            <a href="#">Datos</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipos</a>
+                        </li>
+                        <li>
+                            <a href="#">Agenda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">Jugar Partida</a>
+                    <ul>
+                        <li>
+                            <a href="#">M1 Explora</a>
+                        </li>
+                        <li>
+                            <a href="#">M2 Diverge</a>
+                        </li>
+                        <li>
+                            <a href="#">M3 Converge</a>
+                        </li>
+                        <li>
+                            <a href="#">M4 Convence</a>
+                        </li>
+                        <li>
+                            <a href="#">Ranking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active overactive">
+                    <a href="#">RESUMEN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--left_column-->
+<!--content-->
+<div class="centercolumn nuevo-reto">
+        <div class="centercolumn-inner">
+            <form class="material-form col s12 form-verde-binnakle">
+                <div class="grid-nuevo-reto">
+                    <div class="row">     
+                        <div class="col s12 section-title">
+                            <p>Partidas</p>
+                        </div>
+                        <div class="col s12">
+                            <p>Rellena los siguientes campos para crear una nueva partida:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-nombre_reto">
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input type="text" id="nombrepartida" name="nombrepartida" class="validate">
+                            <label for="first_name" class="text-verde-binnakle">Nombre Partida</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input type="text" id="reto" name="reto" class="validate">
+                            <label for="last_name">Reto <small>¿Cómo podríamos...? Ideas para...</small></label>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="grid-modalidad">
+                    <div class="row">
+                        <div class="col s12">
+                            <p class="titleleft">Modalidad</p>
+                        
+                            <div class="modalidad-radios">
+                                <input class="with-gap" name="modalidad" type="radio" id="express" checked />
+                                <label for="express">Express</label>
+                                <input class="with-gap" name="modalidad" type="radio" id="xl" />
+                                <label for="xl">XL</label>                                
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="grid-fecha_hora_lugar">
+                    <div class="row">                        
+                        <div class="input-field col s12 m4">
+                            <input name="mision1_date" type="text" class="datepicker datepicker0" placeholder="Fecha" value="">
+                        </div>
+                        <div class="input-field col s12 m4">
+                            <input name="mision1_time" type="text" class="timepicker timepicker0" placeholder="Hora" value="">                            
+                        </div>
+                        <div class="input-field col s12 m4">
+                            <input type="text" id="lugarpartida" name="lugarpartida" class="validate">
+                            <label for="lugarpartida">Lugar</label>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="grid-mas-sesiones">
+                    <div class="row">
+                        <div class="col s12">
+                            <p class="titleleft">Si quieres jugar en más de una sesión <a class="text-verde-binnakle modal-trigger" href="#modalsesiones">click aquí</a></p>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="grid-participantes">
+                    <div class="row">
+                        <div class="col s12 m2">
+                            <p class="titleleft">Participantes</p>
+                        </div>
+                        <div class="input-field col s12 m4">
+                            <input type="text" id="emailparticipante" name="emailparticipante" class="validate">
+                            <label for="emailparticipante">E-mail</label>
+                        </div> 
+                        
+                        <div class="input-field col s12 m3 with-helptext">
+                            <input type="text" id="nombreparticipante" name="nombreparticipante" class="validate">
+                            <label for="nombreparticipante">Nombre</label>
+                            <p class="mdc-text-field-helptext" aria-hidden="true">(No obligatorio)</p>
+                        </div>
+                        
+                        <div class="input-field col s12 m3 with-helptext">
+                            <input type="text" id="apellidoparticipante" name="apellidoparticipante" class="validate">
+                            <label for="apellidoparticipante">Apellido</label>
+                            <p class="mdc-text-field-helptext" aria-hidden="true">(No obligatorio)</p>
+                        </div>  
+                         
+                    </div>
+                </div>
+
+                <div class="grid-invitar">
+                    <div class="row">
+                        <div class="col s12 l8 xl6">
+                            <div class="left">                                
+                                <button class="btn waves-effect waves-light white" type="submit" name="invitar">Invitar</button>
+                                <button class="btn waves-effect waves-light white" type="button" name="action">Importar Invitados<i class="material-icons left">arrow_upward</i>
+                                </button>            
+                            </div>
+                        </div>
+                        <div class="col s12 l4 xl3">
+                            <div class="left">                                
+                                <button class="btn waves-effect waves-light white" type="submit" name="recordar">Recordar</button>           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-users-list">
+                    <div class="row">
+                        <div class="col s12 m12 l9">
+                            <div class="users-list">
+                                <table width="100%" border="0">
+                                    <tbody>
+                                        <tr><th>e-mail</th><th>estado</th></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr class="text-verde-binnakle"><td>participanteUno@binnakle.global</td><td>invitación aceptada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>enviar invitación</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                        <tr><td>participanteUno@binnakle.global</td><td>invitación enviada</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l3 goteamsbutton">
+                            <div class="goteamsbutton-inner">
+                                <a class="waves-effect waves-light btn bg-verde-binnakle">Equipos<i class="material-icons right">chevron_right</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modalsesiones" class="modal modalsesiones">
+        <div class="modal-content">
+            <div class="grid-fechas">
+                <div class="row">
+                        <div class="fechas-input col s12 m12 l3">
+                            <label>Misión Uno</label>
+                                <input name="mision1_date" type="text" class="datepicker datepicker1" placeholder="Fecha" value="12-12-2016">
+                                <br>
+                                <input name="mision1_time" type="text" class="timepicker timepicker1" placeholder="Hora" value="15:50">
+                        </div>
+                        <div class="fechas-input col s12 m12 l3">
+                            <label>Misión Dos</label>
+                                <input name="mision2_date" type="text" class="datepicker datepicker2" placeholder="Fecha">
+                                <br>
+                                <input name="mision2_time" type="text" class="timepicker timepicker2" placeholder="Hora">
+                        </div>
+                        <div class="fechas-input col s12 m12 l3">
+                            <label>Misión Tres</label>
+                                <input name="mision3_date" type="text" class="datepicker datepicker3" placeholder="Fecha">
+                                <br>
+                                <input name="mision3_time" type="text" class="timepicker timepicker3" placeholder="Hora">
+                        </div>
+                        <div class="fechas-input col s12 m12 l3">
+                            <label>Misión Cuatro</label>
+                                <input name="mision4_date" type="text" class="datepicker datepicker4" placeholder="Fecha">
+                                <br>
+                                <input name="mision4_time" type="text" class="timepicker timepicker4" placeholder="Hora">
+                        </div>
+                </div>                    
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action waves-effect waves-green btn-flat">Guardar</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+        </div>
+    </div>
+<!--content-->
+<!--footer-->
+<section id="footer" class="footer">
+    <div class="container-footer">    
+        <div class="row">            
+            <div class="col s12">
+                <div class="footer">
+                    <a class="footer-link footer-link-left" href="#">www.binnakle.com</a>
+                    <a class="footer-link footer-link-right" href="#">Política de Privacidad</a>
+                    <a class="footer-link footer-link-right" href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script src="js/jefe.js"></script>
+</body>
+</html>
